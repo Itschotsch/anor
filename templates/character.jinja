@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width={{ card.width.bleed.px }}, height={{ card.height.bleed.px }}, initial-scale=1.0" />
+    <title>{{ entity.title.primary }}</title>
+
+    {{ meta.style }}
+  </head>
+
+  <body>
+    <div class="card layout-{{ entity.layout }}">
+      <div class="safe-area-preview"></div>
+      <div class="safe-area top">
+        <div class="titles">
+          <div class="title">{{ entity.title.primary }}</div>
+          <div class="subtitle">{{ entity.title.secondary }}</div>
+        </div>
+        <div class="cost-list">
+          {% if entity.cost.terra %}
+            <div class="cost">
+              <div class="cost-element terra"></div>
+              <div class="cost-amount">
+                <p>{{ entity.cost.terra }}</p>
+              </div>
+            </div>
+          {% endif %}
+          {% if entity.cost.aqua %}
+            <div class="cost">
+              <div class="cost-element aqua"></div>
+              <div class="cost-amount">
+                <p>{{ entity.cost.aqua }}</p>
+              </div>
+            </div>
+          {% endif %}
+          {% if entity.cost.aeris %}
+            <div class="cost">
+              <div class="cost-element aeris"></div>
+              <div class="cost-amount">
+                <p>{{ entity.cost.aeris }}</p>
+              </div>
+            </div>
+          {% endif %}
+          {% if entity.cost.ignis %}
+            <div class="cost">
+              <div class="cost-element ignis"></div>
+              <div class="cost-amount">
+                <p>{{ entity.cost.ignis }}</p>
+              </div>
+            </div>
+          {% endif %}
+          {% if entity.cost.magica %}
+            <div class="cost">
+              <div class="cost-element magica"></div>
+              <div class="cost-amount">
+                <p>{{ entity.cost.magica }}</p>
+              </div>
+            </div>
+          {% endif %}
+          {% if entity.cost.unshaped %}
+            <div class="cost">
+              <div class="cost-element unshaped"></div>
+              <div class="cost-amount">
+                <p>{{ entity.cost.unshaped }}</p>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+        <div class="faction"></div>
+      </div>
+      <div class="spacer"></div>
+      <div class="safe-area">
+        <div class="parchment">
+          <div class="card-kind">
+            <div>{{ entity.kind }}</div>
+          </div>
+          <div class="entity-type">{{ entity.type }}</div>
+          <div class="description">{{ entity.description }}</div>
+          <div class="flavour-text">{{ entity.flavour }}</div>
+          <div class="combat-stats">
+            <div class="offensive">
+              <img src="{{ meta.templates.directory }}/layout/combat_stats_offensive_symbol.png" class="combat-stats-symbol" />
+              &nbsp;{{ entity.stats.offensive.strength }}/{{ entity.stats.offensive.toughness }}
+            </div>
+            <div class="defensive">
+              <img src="{{ meta.templates.directory }}/layout/combat_stats_defensive_symbol.png" class="combat-stats-symbol" />
+              &nbsp;{{ entity.stats.defensive.strength }}/{{ entity.stats.defensive.toughness }}
+            </div>
+            <div class="elemental {{ entity.elemental.element }}">
+              <p>{{ entity.elemental.amount }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="safe-area bottom">
+          <div class="id">{{ release.label.display }}–{{ entity.id }}</div>
+          <div class="spacer"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
