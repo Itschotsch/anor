@@ -62,7 +62,7 @@
         background-color: brown;
         color: white;
 
-        background-image: url(../../input/images/§Artwork§);
+        background-image: url(../../input/images/{{ entity.artwork.path }});
         background-size: cover;
         background-position: center;
 
@@ -78,22 +78,70 @@
         width: inherit;
         height: inherit;
         max-width: calc(100vw - 2 * 4vw);
-        max-width: calc(100vw - 2 * §Bleed§);
+
+        max-width: calc(100vw - 2 * {
+                    {
+                    card.bleed.px
+                }
+            }
+
+            px);
         margin-left: 4vw;
-        margin-left: §Bleed§;
+
+        margin-left: {
+                {
+                card.bleed.px
+            }
+        }
+
+        px;
         margin-right: 4vw;
-        margin-right: §Bleed§;
+
+        margin-right: {
+                {
+                card.bleed.px
+            }
+        }
+
+        px;
     }
 
     .safe-area.top {
         padding-top: 4vw;
-        padding-top: §Bleed§;
+
+        padding-top: {
+                {
+                card.bleed.px
+            }
+        }
+
+        px;
     }
 
     .safe-area.bottom {
-        margin-left: calc(§Bleed§ + 10.5vw);
-        margin-right: calc(§Bleed§ + 10.5vw);
-        margin-bottom: calc(§Bleed§ + 2vw);
+        margin-left: calc({
+                {
+                card.bleed.px
+            }
+        }
+
+        px + 10.5vw);
+
+    margin-right: calc({
+            {
+            card.bleed.px
+        }
+    }
+
+    px + 10.5vw);
+
+    margin-bottom: calc({
+            {
+            card.bleed.px
+        }
+    }
+
+    px + 2vw);
     }
 
     .safe-area-preview {
@@ -101,22 +149,64 @@
         display: none;
         position: absolute;
         top: 4vw;
-        top: §Bleed§;
+
+        top: {
+                {
+                card.bleed.px
+            }
+        }
+
+        px;
         left: 4vw;
-        left: §Bleed§;
+
+        left: {
+                {
+                card.bleed.px
+            }
+        }
+
+        px;
         width: calc(100% - 8vw);
-        width: calc(100% - §Bleed§ * 2);
+
+        width: calc(100% - {
+                    {
+                    card.bleed.px
+                }
+            }
+
+            px * 2);
         height: calc(100% - 8vw);
-        height: calc(100% - §Bleed§ * 2);
+
+        height: calc(100% - {
+                    {
+                    card.bleed.px
+                }
+            }
+
+            px * 2);
 
         z-index: 10;
 
         border-radius: 3vw;
-        border-radius: §BorderRadius§;
+
+        border-radius: {
+                {
+                card.border_radius.px
+            }
+        }
+
+        px;
 
         /* shadow, expand 100px in all directions without falloff */
         box-shadow: 0 0 0 calc(2*4vw) rgba(128, 128, 128, 0.666);
-        box-shadow: 0 0 0 calc(2*§Bleed§) rgba(128, 128, 128, 0.666);
+
+        box-shadow: 0 0 0 calc(2* {
+                    {
+                    card.bleed.px
+                }
+            }
+
+            px) rgba(128, 128, 128, 0.666);
 
         pointer-events: none;
     }
@@ -600,8 +690,15 @@
         font-size: 3vw;
 
         height: 5vw;
-        margin-top: calc(§Bleed§ - 5vw);
-        text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+
+        margin-top: calc({
+                {
+                card.bleed.px
+            }
+        }
+
+        px - 5vw);
+    text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
     }
 
     ul {
