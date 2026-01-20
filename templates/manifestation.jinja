@@ -81,13 +81,9 @@
           <div class="description">{{ entity.description }}</div>
           <div class="flavour-text">{{ entity.flavour }}</div>
           <div class="combat-stats">
-            <div class="offensive">
-              <img src="{{ meta.layout.path }}/combat_stats_offensive_symbol.png" class="combat-stats-symbol" />
-              &nbsp;{{ entity.stats.offensive.strength }}/{{ entity.stats.offensive.toughness }}
-            </div>
-            <div class="defensive">
-              <img src="{{ meta.layout.path }}/combat_stats_defensive_symbol.png" class="combat-stats-symbol" />
-              &nbsp;{{ entity.stats.defensive.strength }}/{{ entity.stats.defensive.toughness }}
+            <div class="shieldspell">
+              <img src="{{ meta.layout.path }}/combat_stats_shieldspell_symbol.png" class="combat-stats-symbol" />
+              &nbsp;{{ entity.stats.shields }}
             </div>
             <div class="elemental {{ entity.elemental.element }}">
               <p>{{ entity.elemental.amount }}</p>
