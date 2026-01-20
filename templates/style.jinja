@@ -1,713 +1,614 @@
-<style type="text/css">
-    html,
-    body {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        display: flex;
-
-        font-family: "DefaultFont", serif;
-    }
-
-    @font-face {
-        font-family: "TitleFont";
-        src: url("{{ meta.fonts.path }}/gold_and_after/GoldAndAfter.otf") format("opentype");
-    }
-
-    @font-face {
-        font-family: "DefaultFont";
-        src: url("{{ meta.fonts.path }}/merriweather/Merriweather-Regular.ttf") format("truetype");
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    @font-face {
-        font-family: "DefaultFont";
-        src: url("{{ meta.fonts.path }}/merriweather/Merriweather-Bold.ttf") format("truetype");
-        font-weight: bold;
-        font-style: normal;
-    }
-
-    @font-face {
-        font-family: "DefaultFont";
-        src: url("{{ meta.fonts.path }}/merriweather/Merriweather-Italic.ttf") format("truetype");
-        font-weight: normal;
-        font-style: italic;
-    }
-
-    @font-face {
-        font-family: "DefaultFont";
-        src: url("{{ meta.fonts.path }}/merriweather/Merriweather-BoldItalic.ttf") format("truetype");
-        font-weight: bold;
-        font-style: italic;
-    }
-
-    @font-face {
-        font-family: "StatsFont";
-        src: url("{{ meta.fonts.path }}/linux_libertine/LinLibertine_R.ttf") format("truetype");
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    .card {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: stretch;
-
-        width: 100%;
-
-        background-color: brown;
-        color: white;
-
-        background-image: url(../../input/images/{{ entity.artwork.path }});
-        background-size: cover;
-        background-position: center;
-
-        z-index: 0;
-    }
-
-    .safe-area {
-        position: relative;
-        display: inherit;
-        flex-direction: inherit;
-        justify-content: inherit;
-        align-items: inherit;
-        width: inherit;
-        height: inherit;
-        max-width: calc(100vw - 2 * 4vw);
-
-        max-width: calc(100vw - 2 * {
-                    {
-                    card.bleed.px
-                }
-            }
-
-            px);
-        margin-left: 4vw;
-
-        margin-left: {
-                {
-                card.bleed.px
-            }
-        }
-
-        px;
-        margin-right: 4vw;
-
-        margin-right: {
-                {
-                card.bleed.px
-            }
-        }
-
-        px;
-    }
-
-    .safe-area.top {
-        padding-top: 4vw;
-
-        padding-top: {
-                {
-                card.bleed.px
-            }
-        }
-
-        px;
-    }
-
-    .safe-area.bottom {
-        margin-left: calc({
-                {
-                card.bleed.px
-            }
-        }
-
-        px + 10.5vw);
-
-    margin-right: calc({
-            {
-            card.bleed.px
-        }
-    }
-
-    px + 10.5vw);
-
-    margin-bottom: calc({
-            {
-            card.bleed.px
-        }
-    }
-
-    px + 2vw);
-    }
-
-    .safe-area-preview {
-        /* Only for development: */
-        display: none;
-        position: absolute;
-        top: 4vw;
-
-        top: {
-                {
-                card.bleed.px
-            }
-        }
-
-        px;
-        left: 4vw;
-
-        left: {
-                {
-                card.bleed.px
-            }
-        }
-
-        px;
-        width: calc(100% - 8vw);
-
-        width: calc(100% - {
-                    {
-                    card.bleed.px
-                }
-            }
-
-            px * 2);
-        height: calc(100% - 8vw);
-
-        height: calc(100% - {
-                    {
-                    card.bleed.px
-                }
-            }
-
-            px * 2);
-
-        z-index: 10;
-
-        border-radius: 3vw;
-
-        border-radius: {
-                {
-                card.border_radius.px
-            }
-        }
-
-        px;
-
-        /* shadow, expand 100px in all directions without falloff */
-        box-shadow: 0 0 0 calc(2*4vw) rgba(128, 128, 128, 0.666);
-
-        box-shadow: 0 0 0 calc(2* {
-                    {
-                    card.bleed.px
-                }
-            }
-
-            px) rgba(128, 128, 128, 0.666);
-
-        pointer-events: none;
-    }
-
-    .titles {
-        text-shadow:
-            0.1vw 0.2vw 0vw rgb(0, 0, 0),
-            0.15vw 0.3vw 0vw rgb(0, 0, 0),
-            0.2vw 0.4vw 0vw rgb(0, 0, 0),
-            0.25vw 0.5vw 0vw rgb(0, 0, 0),
-            0.3vw 0.6vw 0vw rgb(0, 0, 0),
-            -0.2rem -0.2rem 1vw rgba(0, 0, 0, 0.4),
-            0 0 5vw rgb(0, 0, 0);
-        color: black;
-        -webkit-text-fill-color: white;
-        -webkit-text-stroke-width: 0.075rem;
-        -webkit-text-stroke-color: hsla(0, 0%, 0%, 0.5);
-        paint-order: stroke fill;
-    }
-
-    .title,
-    .subtitle {
-        display: block;
-        margin-left: 13vw;
-        margin-right: 2.5vw;
-        padding: 3vw;
-
-        font-family: "TitleFont", serif;
-    }
-
-    .title {
-        font-size: 6vw;
-        margin-top: 2.5vw;
-    }
-
-    .subtitle {
-        font-size: 4.5vw;
-
-        margin-top: -3vw;
-        padding-top: 0;
-    }
-
-    .cost-list {
-        position: absolute;
-    }
-
-    .cost {
-        transform: translate(4vw, 4vw);
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        padding: 5vw;
-        padding-bottom: 17vw;
-        font-size: 5vw;
-    }
-
-    .cost-element {
-        position: absolute;
-
-        aspect-ratio: 1;
-
-        width: 11vw;
-        height: 11vw;
-        background-size: contain;
-
-        background-image: url({{ meta.layout.path }}/cost_element_ignis.png);
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-
-        z-index: initial;
-    }
-
-    .cost-element.terra {
-        background-image: url({{ meta.layout.path }}/cost_element_terra.png);
-    }
-
-    .cost-element.aqua {
-        background-image: url({{ meta.layout.path }}/cost_element_aqua.png);
-    }
-
-    .cost-element.aeris {
-        background-image: url({{ meta.layout.path }}/cost_element_aeris.png);
-    }
-
-    .cost-element.ignis {
-        background-image: url({{ meta.layout.path }}/cost_element_ignis.png);
-    }
-
-    .cost-element.magica {
-        background-image: url({{ meta.layout.path }}/cost_element_magica.png);
-    }
-
-    .cost-element.unshaped {
-        background-image: url({{ meta.layout.path }}/cost_element_unshaped.png);
-    }
-
-    .cost-amount {
-        position: absolute;
-        top: 7vw;
-        width: 7vw;
-        height: 12vw;
-        padding-top: 0.5vw;
-
-        background-image: url({{ meta.layout.path }}/cost_amount_background.png);
-        background-size: 100% auto;
-        background-position: center bottom;
-        background-repeat: no-repeat;
-
-        font-family: "StatsFont", serif;
-        font-size: 4.5vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        z-index: -1;
-    }
-
-    .spacer {
-        flex-grow: 1;
-    }
-
-    .parchment {
-        background-image: url({{ meta.layout.path }}/parchment.png);
-        background-size: 100% auto;
-        background-position: 50% bottom;
-
-        border-radius: 1vw;
-
-        position: relative;
-
-        min-height: 15vw;
-        margin: 7vw;
-        padding: 5vw 3.5vw;
-
-        z-index: -1;
-    }
-
-    .card-kind {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-
-        background-image: url({{ meta.layout.path }}/kind_background.png);
-        transform: scale(1.2);
-        /*temp*/
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-
-        width: calc(100% + 10vw + 10vw);
-        height: 11vw;
-        margin-top: calc(11vw / -2 - 5vw);
-        margin-left: calc(-5vw - 5vw);
-    }
-
-    .card-kind>div {
-        font-weight: bold;
-        font-size: 2.5vw;
-    }
-
-    .entity-type {
-        font-family: "TitleFont", serif;
-
-        padding: 0;
-        font-size: 3vw;
-    }
-
-    .description {
-        display: block;
-        font-size: 3vw;
-        padding: 0;
-        line-height: 1.35em;
-    }
-
-    .card-kind+.entity-type,
-    .entity-type+.description,
-    .description+.flavour-text {
-        padding-top: 1.2vw;
-    }
-
-    .flavour-text {
-        display: block;
-        text-align: left;
-
-        padding: 0;
-
-        font-style: italic;
-        font-size: 2.5vw;
-    }
-
-    .flavour-text:empty {
-        display: none;
-    }
-
-    .entity-type,
-    .description,
-    .flavour-text {
-        white-space: pre-wrap;
-        color: black;
-    }
-
-    .layout-character .entity-type:empty,
-    .layout-character .description:empty,
-    .layout-character .flavour-text:empty,
-    .layout-event .entity-type:empty,
-    .layout-event .description:empty,
-    .layout-event .flavour-text:empty,
-    .layout-legend .entity-type:empty,
-    .layout-legend .description:empty,
-    .layout-legend .flavour-text:empty,
-    .layout-manifestation .entity-type:empty,
-    .layout-manifestation .description:empty,
-    .layout-manifestation .flavour-text:empty,
-    .layout-ritual .entity-type:empty,
-    .layout-ritual .description:empty,
-    .layout-ritual .flavour-text:empty {
-        display: none;
-    }
-
-    ability {
-        font-weight: 600;
-    }
-
-    cost:after {
-        content: ":";
-    }
-
-    desc {
-        font-style: italic;
-    }
-
-    desc:before {
-        content: "(";
-    }
-
-    desc:after {
-        content: ")";
-    }
-
-    name {
-        font-variant: small-caps;
-    }
-
-    self {
-        font-style: italic;
-    }
-
-    cost> :not(:first-child) {
-        margin-left: 0.1em;
-    }
-
-    ignis,
-    terra,
-    aqua,
-    aeris,
-    magica,
-    unshaped,
-    unshaped1,
-    unshaped2,
-    unshaped3,
-    unshaped4,
-    unshaped5,
-    unshapedX,
-    opt {
-        display: inline-block;
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 1.35em;
-        height: 1.35em;
-        aspect-ratio: 1;
-        vertical-align: bottom;
-    }
-
-    ignis {
-        background-image: url({{ meta.layout.path }}/cost_element_ignis_inline.png);
-    }
-
-    terra {
-        background-image: url({{ meta.layout.path }}/cost_element_terra_inline.png);
-    }
-
-    aqua {
-        background-image: url({{ meta.layout.path }}/cost_element_aqua_inline.png);
-    }
-
-    aeris {
-        background-image: url({{ meta.layout.path }}/cost_element_aeris_inline.png);
-    }
-
-    magica {
-        background-image: url({{ meta.layout.path }}/cost_element_magica_inline.png);
-    }
-
-    unshaped {
-        background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline.png);
-    }
-
-    unshaped1 {
-        background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_1.png);
-    }
-
-    unshaped2 {
-        background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_2.png);
-    }
-
-    unshaped3 {
-        background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_3.png);
-    }
-
-    unshaped4 {
-        background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_4.png);
-    }
-
-    unshaped5 {
-        background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_5.png);
-    }
-
-    unshapedX {
-        background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_X.png);
-    }
-
-    opt {
-        background-image: url({{ meta.layout.path }}/cost_opt_inline.png);
-    }
-
-    element::after {
-        background-size: 1em 1em;
-        display: inline-block;
-        width: 1em;
-        height: 1em;
-        content: "";
-        vertical-align: sub;
-        margin-left: 0.25em;
-    }
-
-    .combat-stats {
-        position: absolute;
-        bottom: 0vw;
-        right: 0vw;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        font-size: 4vw;
-    }
-
-    .offensive,
-    .defensive,
-    .shieldspell {
-        position: absolute;
-
-        background-size: auto 100%;
-        background-repeat: no-repeat;
-
-        width: auto;
-        height: 7vw;
-
-        font-family: "StatsFont", serif;
-        font-size: 4vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .offensive {
-        background-image: url({{ meta.layout.path }}/combat_stats_offensive_background.png);
-        background-position: left center;
-        padding-left: 7vw;
-        padding-right: 4vw;
-        transform: translateX(-3vw);
-        right: 0;
-    }
-
-    .defensive {
-        background-image: url({{ meta.layout.path }}/combat_stats_defensive_background.png);
-        background-position: right center;
-        padding-left: 4vw;
-        padding-right: 7vw;
-
-        left: 0;
-        transform: translateX(-50%) rotate(-90deg) translateX(50%) translateX(3vw);
-    }
-
-    .shieldspell {
-        background-image: url({{ meta.layout.path }}/combat_stats_shieldspell_background.png);
-        background-position: left center;
-        padding-left: 7vw;
-        padding-right: 4vw;
-        transform: translateX(-3vw);
-        right: 0;
-    }
-
-    .combat-stats-symbol {
-        font-size: 3vw;
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-
-        display: inline-block;
-        vertical-align: baseline;
-        width: auto;
-        height: 1em;
-    }
-
-    .elemental {
-        position: absolute;
-        width: 11vw;
-        height: 11vw;
-        transform: rotate(180deg);
-
-        background-image: url({{ meta.layout.path }}/cost_element_unshaped_empty.png);
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "StatsFont", serif;
-        font-size: 7.5vw;
-    }
-
-    .elemental.terra {
-        background-image: url({{ meta.layout.path }}/cost_element_terra_empty.png);
-    }
-
-    .elemental.aqua {
-        background-image: url({{ meta.layout.path }}/cost_element_aqua_empty.png);
-    }
-
-    .elemental.aeris {
-        background-image: url({{ meta.layout.path }}/cost_element_aeris_empty.png);
-    }
-
-    .elemental.ignis {
-        background-image: url({{ meta.layout.path }}/cost_element_ignis_empty.png);
-    }
-
-    .elemental.magica {
-        background-image: url({{ meta.layout.path }}/cost_element_magica_empty.png);
-    }
-
-    .elemental.unshaped {
-        background-image: url({{ meta.layout.path }}/cost_element_unshaped_empty.png);
-    }
-
-    .elemental>p {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .cost-amount,
-    .card-kind,
-    .offensive,
-    .defensive,
-    .shieldspell,
-    .elemental {
-        text-shadow: 0 -0.25vw 0 black;
-        font-weight: bold;
-    }
-
-    .footer {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: end;
-
-        width: 100%;
-
-        font-size: 3vw;
-
-        height: 5vw;
-
-        margin-top: calc({
-                {
-                card.bleed.px
-            }
-        }
-
-        px - 5vw);
-    text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
-    }
-
-    ul {
-        margin: 0;
-        margin-top: -3vw;
-        margin-bottom: -5vw;
-    }
-
-    li+li {
-        margin-top: -1em;
-    }
-</style>
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    font-family: "DefaultFont", serif;
+}
+
+@font-face {
+    font-family: "TitleFont";
+    src: url("{{ meta.fonts.path }}/gold_and_after/GoldAndAfter.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "DefaultFont";
+    src: url("{{ meta.fonts.path }}/merriweather/Merriweather-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DefaultFont";
+    src: url("{{ meta.fonts.path }}/merriweather/Merriweather-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DefaultFont";
+    src: url("{{ meta.fonts.path }}/merriweather/Merriweather-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "DefaultFont";
+    src: url("{{ meta.fonts.path }}/merriweather/Merriweather-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "StatsFont";
+    src: url("{{ meta.fonts.path }}/linux_libertine/LinLibertine_R.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+
+    width: 100%;
+
+    background-color: brown;
+    color: white;
+
+    background-image: url(../../input/images/{{ entity.artwork.path }});
+    background-size: cover;
+    background-position: center;
+
+    z-index: 0;
+}
+
+.safe-area {
+    position: relative;
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    width: inherit;
+    height: inherit;
+    max-width: calc(100vw - 2 * 4vw);
+    max-width: calc(100vw - 2 * {{ card.bleed.px }}px);
+    margin-left: 4vw;
+    margin-left: {{ card.bleed.px }}px;
+    margin-right: 4vw;
+    margin-right: {{ card.bleed.px }}px;
+}
+
+.safe-area.top {
+    padding-top: 4vw;
+    padding-top: {{ card.bleed.px }}px;
+}
+
+.safe-area.bottom {
+    margin-left: calc({{ card.bleed.px }}px + 10.5vw);
+    margin-right: calc({{ card.bleed.px }}px + 10.5vw);
+    margin-bottom: calc({{ card.bleed.px }}px + 2vw);
+}
+
+.safe-area-preview {
+    /* Only for development: */
+    display: none;
+    position: absolute;
+    top: 4vw;
+    top: {{ card.bleed.px }}px;
+    left: 4vw;
+    left: {{ card.bleed.px }}px;
+    width: calc(100% - 8vw);
+    width: calc(100% - {{ card.bleed.px }}px * 2);
+    height: calc(100% - 8vw);
+    height: calc(100% - {{ card.bleed.px }}px * 2);
+
+    z-index: 10;
+
+    border-radius: 3vw;
+    border-radius: {{ card.border_radius.px }}px;
+
+    /* shadow, expand 100px in all directions without falloff */
+    box-shadow: 0 0 0 calc(2*4vw) rgba(128, 128, 128, 0.666);
+    box-shadow: 0 0 0 calc(2* {{ card.bleed.px }}px) rgba(128, 128, 128, 0.666);
+
+    pointer-events: none;
+}
+
+.titles {
+    text-shadow:
+        0.1vw 0.2vw 0vw rgb(0, 0, 0),
+        0.15vw 0.3vw 0vw rgb(0, 0, 0),
+        0.2vw 0.4vw 0vw rgb(0, 0, 0),
+        0.25vw 0.5vw 0vw rgb(0, 0, 0),
+        0.3vw 0.6vw 0vw rgb(0, 0, 0),
+        -0.2rem -0.2rem 1vw rgba(0, 0, 0, 0.4),
+        0 0 5vw rgb(0, 0, 0);
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.075rem;
+    -webkit-text-stroke-color: hsla(0, 0%, 0%, 0.5);
+    paint-order: stroke fill;
+}
+
+.title,
+.subtitle {
+    display: block;
+    margin-left: 13vw;
+    margin-right: 2.5vw;
+    padding: 3vw;
+
+    font-family: "TitleFont", serif;
+}
+
+.title {
+    font-size: 6vw;
+    margin-top: 2.5vw;
+}
+
+.subtitle {
+    font-size: 4.5vw;
+
+    margin-top: -3vw;
+    padding-top: 0;
+}
+
+.cost-list {
+    position: absolute;
+}
+
+.cost {
+    transform: translate(4vw, 4vw);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5vw;
+    padding-bottom: 17vw;
+    font-size: 5vw;
+}
+
+.cost-element {
+    position: absolute;
+
+    aspect-ratio: 1;
+
+    width: 11vw;
+    height: 11vw;
+    background-size: contain;
+
+    background-image: url({{ meta.layout.path }}/cost_element_ignis.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    z-index: initial;
+}
+
+.cost-element.terra {
+    background-image: url({{ meta.layout.path }}/cost_element_terra.png);
+}
+
+.cost-element.aqua {
+    background-image: url({{ meta.layout.path }}/cost_element_aqua.png);
+}
+
+.cost-element.aeris {
+    background-image: url({{ meta.layout.path }}/cost_element_aeris.png);
+}
+
+.cost-element.ignis {
+    background-image: url({{ meta.layout.path }}/cost_element_ignis.png);
+}
+
+.cost-element.magica {
+    background-image: url({{ meta.layout.path }}/cost_element_magica.png);
+}
+
+.cost-element.unshaped {
+    background-image: url({{ meta.layout.path }}/cost_element_unshaped.png);
+}
+
+.cost-amount {
+    position: absolute;
+    top: 7vw;
+    width: 7vw;
+    height: 12vw;
+    padding-top: 0.5vw;
+
+    background-image: url({{ meta.layout.path }}/cost_amount_background.png);
+    background-size: 100% auto;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+
+    font-family: "StatsFont", serif;
+    font-size: 4.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: -1;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.parchment {
+    background-image: url({{ meta.layout.path }}/parchment.png);
+    background-size: 100% auto;
+    background-position: 50% bottom;
+
+    border-radius: 1vw;
+
+    position: relative;
+
+    min-height: 15vw;
+    margin: 7vw;
+    padding: 5vw 3.5vw;
+
+    z-index: -1;
+}
+
+.card-kind {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url({{ meta.layout.path }}/kind_background.png);
+    transform: scale(1.2);
+    /*temp*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: calc(100% + 10vw + 10vw);
+    height: 11vw;
+    margin-top: calc(11vw / -2 - 5vw);
+    margin-left: calc(-5vw - 5vw);
+}
+
+.card-kind>div {
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+.entity-type {
+    font-family: "TitleFont", serif;
+
+    padding: 0;
+    font-size: 3vw;
+}
+
+.description {
+    display: block;
+    font-size: 3vw;
+    padding: 0;
+    line-height: 1.35em;
+}
+
+.card-kind+.entity-type,
+.entity-type+.description,
+.description+.flavour-text {
+    padding-top: 1.2vw;
+}
+
+.flavour-text {
+    display: block;
+    text-align: left;
+
+    padding: 0;
+
+    font-style: italic;
+    font-size: 2.5vw;
+}
+
+.flavour-text:empty {
+    display: none;
+}
+
+.entity-type,
+.description,
+.flavour-text {
+    white-space: pre-wrap;
+    color: black;
+}
+
+.layout-character .entity-type:empty,
+.layout-character .description:empty,
+.layout-character .flavour-text:empty,
+.layout-event .entity-type:empty,
+.layout-event .description:empty,
+.layout-event .flavour-text:empty,
+.layout-legend .entity-type:empty,
+.layout-legend .description:empty,
+.layout-legend .flavour-text:empty,
+.layout-manifestation .entity-type:empty,
+.layout-manifestation .description:empty,
+.layout-manifestation .flavour-text:empty,
+.layout-ritual .entity-type:empty,
+.layout-ritual .description:empty,
+.layout-ritual .flavour-text:empty {
+    display: none;
+}
+
+ability {
+    font-weight: 600;
+}
+
+cost:after {
+    content: ":";
+}
+
+desc {
+    font-style: italic;
+}
+
+desc:before {
+    content: "(";
+}
+
+desc:after {
+    content: ")";
+}
+
+name {
+    font-variant: small-caps;
+}
+
+self {
+    font-style: italic;
+}
+
+cost> :not(:first-child) {
+    margin-left: 0.1em;
+}
+
+ignis,
+terra,
+aqua,
+aeris,
+magica,
+unshaped,
+unshaped1,
+unshaped2,
+unshaped3,
+unshaped4,
+unshaped5,
+unshapedX,
+opt {
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1.35em;
+    height: 1.35em;
+    aspect-ratio: 1;
+    vertical-align: bottom;
+}
+
+ignis {
+    background-image: url({{ meta.layout.path }}/cost_element_ignis_inline.png);
+}
+
+terra {
+    background-image: url({{ meta.layout.path }}/cost_element_terra_inline.png);
+}
+
+aqua {
+    background-image: url({{ meta.layout.path }}/cost_element_aqua_inline.png);
+}
+
+aeris {
+    background-image: url({{ meta.layout.path }}/cost_element_aeris_inline.png);
+}
+
+magica {
+    background-image: url({{ meta.layout.path }}/cost_element_magica_inline.png);
+}
+
+unshaped {
+    background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline.png);
+}
+
+unshaped1 {
+    background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_1.png);
+}
+
+unshaped2 {
+    background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_2.png);
+}
+
+unshaped3 {
+    background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_3.png);
+}
+
+unshaped4 {
+    background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_4.png);
+}
+
+unshaped5 {
+    background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_5.png);
+}
+
+unshapedX {
+    background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_X.png);
+}
+
+opt {
+    background-image: url({{ meta.layout.path }}/cost_opt_inline.png);
+}
+
+element::after {
+    background-size: 1em 1em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    content: "";
+    vertical-align: sub;
+    margin-left: 0.25em;
+}
+
+.combat-stats {
+    position: absolute;
+    bottom: 0vw;
+    right: 0vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 4vw;
+}
+
+.offensive,
+.defensive,
+.shieldspell {
+    position: absolute;
+
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+
+    width: auto;
+    height: 7vw;
+
+    font-family: "StatsFont", serif;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offensive {
+    background-image: url({{ meta.layout.path }}/combat_stats_offensive_background.png);
+    background-position: left center;
+    padding-left: 7vw;
+    padding-right: 4vw;
+    transform: translateX(-3vw);
+    right: 0;
+}
+
+.defensive {
+    background-image: url({{ meta.layout.path }}/combat_stats_defensive_background.png);
+    background-position: right center;
+    padding-left: 4vw;
+    padding-right: 7vw;
+
+    left: 0;
+    transform: translateX(-50%) rotate(-90deg) translateX(50%) translateX(3vw);
+}
+
+.shieldspell {
+    background-image: url({{ meta.layout.path }}/combat_stats_shieldspell_background.png);
+    background-position: left center;
+    padding-left: 7vw;
+    padding-right: 4vw;
+    transform: translateX(-3vw);
+    right: 0;
+}
+
+.combat-stats-symbol {
+    font-size: 3vw;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: inline-block;
+    vertical-align: baseline;
+    width: auto;
+    height: 1em;
+}
+
+.elemental {
+    position: absolute;
+    width: 11vw;
+    height: 11vw;
+    transform: rotate(180deg);
+
+    background-image: url({{ meta.layout.path }}/cost_element_unshaped_empty.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "StatsFont", serif;
+    font-size: 7.5vw;
+}
+
+.elemental.terra {
+    background-image: url({{ meta.layout.path }}/cost_element_terra_empty.png);
+}
+
+.elemental.aqua {
+    background-image: url({{ meta.layout.path }}/cost_element_aqua_empty.png);
+}
+
+.elemental.aeris {
+    background-image: url({{ meta.layout.path }}/cost_element_aeris_empty.png);
+}
+
+.elemental.ignis {
+    background-image: url({{ meta.layout.path }}/cost_element_ignis_empty.png);
+}
+
+.elemental.magica {
+    background-image: url({{ meta.layout.path }}/cost_element_magica_empty.png);
+}
+
+.elemental.unshaped {
+    background-image: url({{ meta.layout.path }}/cost_element_unshaped_empty.png);
+}
+
+.elemental>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cost-amount,
+.card-kind,
+.offensive,
+.defensive,
+.shieldspell,
+.elemental {
+    text-shadow: 0 -0.25vw 0 black;
+    font-weight: bold;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+
+    width: 100%;
+
+    font-size: 3vw;
+
+    height: 5vw;
+    margin-top: calc({{ card.bleed.px }}px - 5vw);
+text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+}
+
+ul {
+    margin: 0;
+    margin-top: -3vw;
+    margin-bottom: -5vw;
+}
+
+li+li {
+    margin-top: -1em;
+}
