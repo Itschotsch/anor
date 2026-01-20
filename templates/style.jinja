@@ -12,40 +12,40 @@
 
     @font-face {
         font-family: "TitleFont";
-        src: url("{{ meta.templates.directory }}/fonts/gold_and_after/GoldAndAfter.otf") format("opentype");
+        src: url("{{ meta.fonts.path }}/gold_and_after/GoldAndAfter.otf") format("opentype");
     }
 
     @font-face {
         font-family: "DefaultFont";
-        src: url("{{ meta.templates.directory }}/fonts/merriweather/Merriweather-Regular.ttf") format("truetype");
+        src: url("{{ meta.fonts.path }}/merriweather/Merriweather-Regular.ttf") format("truetype");
         font-weight: normal;
         font-style: normal;
     }
 
     @font-face {
         font-family: "DefaultFont";
-        src: url("{{ meta.templates.directory }}/fonts/merriweather/Merriweather-Bold.ttf") format("truetype");
+        src: url("{{ meta.fonts.path }}/merriweather/Merriweather-Bold.ttf") format("truetype");
         font-weight: bold;
         font-style: normal;
     }
 
     @font-face {
         font-family: "DefaultFont";
-        src: url("{{ meta.templates.directory }}/fonts/merriweather/Merriweather-Italic.ttf") format("truetype");
+        src: url("{{ meta.fonts.path }}/merriweather/Merriweather-Italic.ttf") format("truetype");
         font-weight: normal;
         font-style: italic;
     }
 
     @font-face {
         font-family: "DefaultFont";
-        src: url("{{ meta.templates.directory }}/fonts/merriweather/Merriweather-BoldItalic.ttf") format("truetype");
+        src: url("{{ meta.fonts.path }}/merriweather/Merriweather-BoldItalic.ttf") format("truetype");
         font-weight: bold;
         font-style: italic;
     }
 
     @font-face {
         font-family: "StatsFont";
-        src: url("{{ meta.templates.directory }}/fonts/linux_libertine/LinLibertine_R.ttf") format("truetype");
+        src: url("{{ meta.fonts.path }}/linux_libertine/LinLibertine_R.ttf") format("truetype");
         font-weight: normal;
         font-style: normal;
     }
@@ -185,7 +185,7 @@
         height: 11vw;
         background-size: contain;
 
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_ignis.png);
+        background-image: url({{ meta.layout.path }}/cost_element_ignis.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -194,27 +194,27 @@
     }
 
     .cost-element.terra {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_terra.png);
+        background-image: url({{ meta.layout.path }}/cost_element_terra.png);
     }
 
     .cost-element.aqua {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_aqua.png);
+        background-image: url({{ meta.layout.path }}/cost_element_aqua.png);
     }
 
     .cost-element.aeris {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_aeris.png);
+        background-image: url({{ meta.layout.path }}/cost_element_aeris.png);
     }
 
     .cost-element.ignis {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_ignis.png);
+        background-image: url({{ meta.layout.path }}/cost_element_ignis.png);
     }
 
     .cost-element.magica {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_magica.png);
+        background-image: url({{ meta.layout.path }}/cost_element_magica.png);
     }
 
     .cost-element.unshaped {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_unshaped.png);
+        background-image: url({{ meta.layout.path }}/cost_element_unshaped.png);
     }
 
     .cost-amount {
@@ -224,7 +224,7 @@
         height: 12vw;
         padding-top: 0.5vw;
 
-        background-image: url({{ meta.templates.directory }}/layout/cost_amount_background.png);
+        background-image: url({{ meta.layout.path }}/cost_amount_background.png);
         background-size: 100% auto;
         background-position: center bottom;
         background-repeat: no-repeat;
@@ -243,7 +243,7 @@
     }
 
     .parchment {
-        background-image: url({{ meta.templates.directory }}/layout/parchment.png);
+        background-image: url({{ meta.layout.path }}/parchment.png);
         background-size: 100% auto;
         background-position: 50% bottom;
 
@@ -265,7 +265,7 @@
         justify-content: center;
         align-items: center;
 
-        background-image: url({{ meta.templates.directory }}/layout/kind_background.png);
+        background-image: url({{ meta.layout.path }}/kind_background.png);
         transform: scale(1.2);
         /*temp*/
         background-size: contain;
@@ -398,55 +398,55 @@
     }
 
     ignis {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_ignis_inline.png);
+        background-image: url({{ meta.layout.path }}/cost_element_ignis_inline.png);
     }
 
     terra {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_terra_inline.png);
+        background-image: url({{ meta.layout.path }}/cost_element_terra_inline.png);
     }
 
     aqua {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_aqua_inline.png);
+        background-image: url({{ meta.layout.path }}/cost_element_aqua_inline.png);
     }
 
     aeris {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_aeris_inline.png);
+        background-image: url({{ meta.layout.path }}/cost_element_aeris_inline.png);
     }
 
     magica {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_magica_inline.png);
+        background-image: url({{ meta.layout.path }}/cost_element_magica_inline.png);
     }
 
     unshaped {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_unshaped_inline.png);
+        background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline.png);
     }
 
     unshaped1 {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_unshaped_inline_1.png);
+        background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_1.png);
     }
 
     unshaped2 {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_unshaped_inline_2.png);
+        background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_2.png);
     }
 
     unshaped3 {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_unshaped_inline_3.png);
+        background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_3.png);
     }
 
     unshaped4 {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_unshaped_inline_4.png);
+        background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_4.png);
     }
 
     unshaped5 {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_unshaped_inline_5.png);
+        background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_5.png);
     }
 
     unshapedX {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_unshaped_inline_X.png);
+        background-image: url({{ meta.layout.path }}/cost_element_unshaped_inline_X.png);
     }
 
     opt {
-        background-image: url({{ meta.templates.directory }}/layout/cost_opt_inline.png);
+        background-image: url({{ meta.layout.path }}/cost_opt_inline.png);
     }
 
     element::after {
@@ -491,7 +491,7 @@
     }
 
     .offensive {
-        background-image: url({{ meta.templates.directory }}/layout/combat_stats_offensive_background.png);
+        background-image: url({{ meta.layout.path }}/combat_stats_offensive_background.png);
         background-position: left center;
         padding-left: 7vw;
         padding-right: 4vw;
@@ -500,7 +500,7 @@
     }
 
     .defensive {
-        background-image: url({{ meta.templates.directory }}/layout/combat_stats_defensive_background.png);
+        background-image: url({{ meta.layout.path }}/combat_stats_defensive_background.png);
         background-position: right center;
         padding-left: 4vw;
         padding-right: 7vw;
@@ -510,7 +510,7 @@
     }
 
     .shieldspell {
-        background-image: url({{ meta.templates.directory }}/layout/combat_stats_shieldspell_background.png);
+        background-image: url({{ meta.layout.path }}/combat_stats_shieldspell_background.png);
         background-position: left center;
         padding-left: 7vw;
         padding-right: 4vw;
@@ -536,7 +536,7 @@
         height: 11vw;
         transform: rotate(180deg);
 
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_unshaped_empty.png);
+        background-image: url({{ meta.layout.path }}/cost_element_unshaped_empty.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -549,27 +549,27 @@
     }
 
     .elemental.terra {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_terra_empty.png);
+        background-image: url({{ meta.layout.path }}/cost_element_terra_empty.png);
     }
 
     .elemental.aqua {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_aqua_empty.png);
+        background-image: url({{ meta.layout.path }}/cost_element_aqua_empty.png);
     }
 
     .elemental.aeris {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_aeris_empty.png);
+        background-image: url({{ meta.layout.path }}/cost_element_aeris_empty.png);
     }
 
     .elemental.ignis {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_ignis_empty.png);
+        background-image: url({{ meta.layout.path }}/cost_element_ignis_empty.png);
     }
 
     .elemental.magica {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_magica_empty.png);
+        background-image: url({{ meta.layout.path }}/cost_element_magica_empty.png);
     }
 
     .elemental.unshaped {
-        background-image: url({{ meta.templates.directory }}/layout/cost_element_unshaped_empty.png);
+        background-image: url({{ meta.layout.path }}/cost_element_unshaped_empty.png);
     }
 
     .elemental>p {
