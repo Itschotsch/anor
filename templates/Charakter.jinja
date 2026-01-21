@@ -7,7 +7,7 @@
     <title>{{ entity.title.primary }}</title>
 
     <style type="text/css">
-      {{ meta.style }}
+        {{ meta.style }}
     </style>
   </head>
 
@@ -16,8 +16,8 @@
       <div class="safe-area-preview"></div>
       <div class="safe-area top">
         <div class="titles">
-          <div class="title">{{ entity.title.primary }}</div>
-          <div class="subtitle">{{ entity.title.secondary }}</div>
+          <div class="title">{{ entity.title.primary }}{% if entity.title.secondary %},{% endif %}</div>
+          {% if entity.title.secondary %}<div class="subtitle">{{ entity.title.secondary }}</div>{% endif %}
         </div>
         <div class="cost-list">
           {% if entity.cost.terra %}
@@ -77,17 +77,20 @@
           <div class="card-kind">
             <div>{{ entity.kind }}</div>
           </div>
-          <div class="entity-type">{{ entity.type }}</div>
-          <div class="description">{{ entity.description }}</div>
-          <div class="flavour-text">{{ entity.flavour }}</div>
+          {# {% if entity.type %}<div class="entity-type">{{ entity.type }}</div>{% endif %}
+          {% if entity.description %}<div class="description">{{ entity.description }}</div>{% endif %}
+          {% if entity.flavour %}<div class="flavour-text">{{ entity.flavour }}</div>{% endif %} #}
+          <div class="entity-type">{{ entity.type or "" }}</div>
+          <div class="description">{{ entity.description or "" }}</div>
+          <div class="flavour-text">{{ entity.flavour or "" }}</div>
           <div class="combat-stats">
             <div class="offensive">
               <img src="{{ meta.layout.path }}/combat_stats_offensive_symbol.png" class="combat-stats-symbol" />
-              &nbsp;{{ entity.stats.offensive.strength }}/{{ entity.stats.offensive.toughness }}
+              &nbsp;{{ entity.stats.offensive.strength or "–" }}/{{ entity.stats.offensive.toughness or "–" }}
             </div>
             <div class="defensive">
               <img src="{{ meta.layout.path }}/combat_stats_defensive_symbol.png" class="combat-stats-symbol" />
-              &nbsp;{{ entity.stats.defensive.strength }}/{{ entity.stats.defensive.toughness }}
+              &nbsp;{{ entity.stats.defensive.strength or "–" }}/{{ entity.stats.defensive.toughness or "–" }}
             </div>
             <div class="elemental {{ entity.elemental.element }}">
               <p>{{ entity.elemental.amount }}</p>
