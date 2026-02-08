@@ -97,7 +97,7 @@ body {
 
 .safe-area-preview {
     /* Only for development: */
-    display: none;
+    {# display: none; #}
     position: absolute;
     top: 4vw;
     top: {{ card.bleed.px }}px;
@@ -247,7 +247,7 @@ body {
     background-size: 100% auto;
     background-position: 50% bottom;
 
-    border-radius: 1vw;
+    border-radius: 2vw;
 
     position: relative;
 
@@ -257,7 +257,7 @@ body {
 
     z-index: -1;
 
-    box-shadow: 0 0.5vw 4vw 0 rgba(0,0,0,0.75);
+    box-shadow: 0 0.5vw 4vw 0 rgba(0,0,0,0.75), 0 0.5vw 7vw 0 rgba(0,0,0,0.75) inset;
 }
 
 .card-kind {
@@ -495,7 +495,7 @@ element::after {
     background-image: url({{ meta.layout.path }}/combat_stats_offensive_background.png);
     background-position: left center;
     padding-left: 7vw;
-    padding-right: 3.5vw;
+    padding-right: 3.25vw;
     transform: translateX(-3vw);
     right: 0;
 }
@@ -503,7 +503,7 @@ element::after {
 .defensive {
     background-image: url({{ meta.layout.path }}/combat_stats_defensive_background.png);
     background-position: right center;
-    padding-left: 3.5vw;
+    padding-left: 3.25vw;
     padding-right: 7vw;
 
     left: 0;
@@ -537,7 +537,20 @@ element::after {
     height: 9vw;
     transform: rotate(180deg);
 
-    background-image: url({{ meta.layout.path }}/cost_element_unshaped_empty.png);
+    {% if entity.elemental.element == "Ignis" %}
+        background-image: url({{ meta.layout.path }}/cost_element_ignis_empty.png);
+    {% elif entity.elemental.element == "Terra" %}
+        background-image: url({{ meta.layout.path }}/cost_element_terra_empty.png);
+    {% elif entity.elemental.element == "Aqua" %}
+        background-image: url({{ meta.layout.path }}/cost_element_aqua_empty.png);
+    {% elif entity.elemental.element == "Aeris" %}
+        background-image: url({{ meta.layout.path }}/cost_element_aeris_empty.png);
+    {% elif entity.elemental.element == "Magica" %}
+        background-image: url({{ meta.layout.path }}/cost_element_magica_empty.png);
+    {% elif entity.elemental.element == "Ungeprägt" %}
+        background-image: url({{ meta.layout.path }}/cost_element_unshaped_empty.png);
+    {% endif %}
+
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -547,30 +560,6 @@ element::after {
     align-items: center;
     font-family: "StatsFont", serif;
     font-size: 6.5vw;
-}
-
-.elemental.terra {
-    background-image: url({{ meta.layout.path }}/cost_element_terra_empty.png);
-}
-
-.elemental.aqua {
-    background-image: url({{ meta.layout.path }}/cost_element_aqua_empty.png);
-}
-
-.elemental.aeris {
-    background-image: url({{ meta.layout.path }}/cost_element_aeris_empty.png);
-}
-
-.elemental.ignis {
-    background-image: url({{ meta.layout.path }}/cost_element_ignis_empty.png);
-}
-
-.elemental.magica {
-    background-image: url({{ meta.layout.path }}/cost_element_magica_empty.png);
-}
-
-.elemental.unshaped {
-    background-image: url({{ meta.layout.path }}/cost_element_unshaped_empty.png);
 }
 
 .elemental>p {
