@@ -85,11 +85,11 @@
           <div class="flavour-text">{{ entity.flavour or "" }}</div>
           <div class="combat-stats">
             <div class="offensive">
-              <img src="{{ meta.layout.path }}/combat_stats_offensive_symbol.png" class="combat-stats-symbol" />
+              <img src="{{ meta.layout.path }}/combat_stats_offensive_symbol.svg" class="combat-stats-symbol" style="height: 1.4em;" />
               &nbsp;{{ entity.stats.offensive.strength or "–" }}/{{ entity.stats.offensive.toughness or "–" }}
             </div>
             <div class="defensive">
-              <img src="{{ meta.layout.path }}/combat_stats_defensive_symbol.png" class="combat-stats-symbol" />
+              <img src="{{ meta.layout.path }}/combat_stats_defensive_symbol.svg" class="combat-stats-symbol" style="height: 1.3em;" />
               &nbsp;{{ entity.stats.defensive.strength or "–" }}/{{ entity.stats.defensive.toughness or "–" }}
             </div>
             <div class="elemental">
