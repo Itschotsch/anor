@@ -1,0 +1,17 @@
+{
+  "486": {
+    "id": "486",
+    "name": "Sarius, Kundschafter der Hofkanzlei",
+    "Element": "aqua",
+    "type": "Charakter",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Sarius, Kundschafter der Hofkanzlei",
+        "type": "Charakter",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/hero/jpg/486.jpg"
+      }
+    }
+  }
+}
