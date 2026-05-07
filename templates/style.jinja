@@ -49,6 +49,13 @@ body {
     font-style: normal;
 }
 
+@font-face {
+    font-family: "HeroFont";
+    src: url("{{ meta.fonts.path }}/unifraktur_cook/UnifrakturCook-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
 .card {
     position: relative;
     display: flex;
@@ -76,11 +83,8 @@ body {
     align-items: inherit;
     width: inherit;
     height: inherit;
-    max-width: calc(100vw - 2 * 4vw);
     max-width: calc(100vw - 2 * {{ card.bleed.px }}px);
-    margin-left: 4vw;
     margin-left: {{ card.bleed.px }}px;
-    margin-right: 4vw;
     margin-right: {{ card.bleed.px }}px;
 }
 
@@ -92,6 +96,10 @@ body {
 .safe-area.bottom {
     margin-left: calc({{ card.bleed.px }}px + 10.5vw);
     margin-right: calc({{ card.bleed.px }}px + 10.5vw);
+    margin-bottom: calc({{ card.bleed.px }}px + 2vw);
+}
+
+.safe-area.full {
     margin-bottom: calc({{ card.bleed.px }}px + 2vw);
 }
 
@@ -146,6 +154,27 @@ body {
     font-family: "TitleFont", serif;
 }
 
+.titles.hero {
+    margin: 0;
+    margin-top: 3vw;
+    margin-bottom: 12vw;
+    padding: 0;
+    text-align: center;
+}
+
+.title.hero,
+.subtitle.hero {
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+    padding-right: 0;
+    font-family: "HeroFont", serif;
+}
+
+.title.hero+.subtitle.hero {
+    margin-top: -1vw;
+}
+
 .title {
     font-size: 6vw;
     margin-top: 2.5vw;
@@ -153,6 +182,13 @@ body {
 
 .subtitle {
     font-size: 4.5vw;
+
+    margin-top: -3vw;
+    padding-top: 0;
+}
+
+.subtitle.hero {
+    font-size: 4vw;
 
     margin-top: -3vw;
     padding-top: 0;
@@ -179,12 +215,14 @@ body {
 
 .cost-element {
     position: absolute;
+}
 
-    aspect-ratio: 1;
-
+.cost-element,
+.devotion-element {
     width: 11vw;
     height: 11vw;
-    background-size: contain;
+
+    aspect-ratio: 1;
 
     background-image: url({{ meta.layout.path }}/cost_element_ignis.png);
     background-size: contain;
@@ -194,27 +232,37 @@ body {
     z-index: initial;
 }
 
-.cost-element.terra {
+.devotion-element.hero {
+    margin: auto;
+}
+
+.cost-element.terra,
+.devotion-element.terra {
     background-image: url({{ meta.layout.path }}/cost_element_terra.png);
 }
 
-.cost-element.aqua {
+.cost-element.aqua,
+.devotion-element.aqua {
     background-image: url({{ meta.layout.path }}/cost_element_aqua.png);
 }
 
-.cost-element.aeris {
+.cost-element.aeris,
+.devotion-element.aeris {
     background-image: url({{ meta.layout.path }}/cost_element_aeris.png);
 }
 
-.cost-element.ignis {
+.cost-element.ignis,
+.devotion-element.ignis {
     background-image: url({{ meta.layout.path }}/cost_element_ignis.png);
 }
 
-.cost-element.magica {
+.cost-element.magica,
+.devotion-element.magica {
     background-image: url({{ meta.layout.path }}/cost_element_magica.png);
 }
 
-.cost-element.unshaped {
+.cost-element.unshaped,
+.devotion-element.unshaped {
     background-image: url({{ meta.layout.path }}/cost_element_unshaped.png);
 }
 
@@ -550,17 +598,17 @@ element::after {
     height: 9vw;
     transform: rotate(180deg);
 
-    {% if entity.elemental.element == "Ignis" %}
+    {% if entity.elemental.element == "ignis" %}
         background-image: url({{ meta.layout.path }}/cost_element_ignis_empty.png);
-    {% elif entity.elemental.element == "Terra" %}
+    {% elif entity.elemental.element == "terra" %}
         background-image: url({{ meta.layout.path }}/cost_element_terra_empty.png);
-    {% elif entity.elemental.element == "Aqua" %}
+    {% elif entity.elemental.element == "aqua" %}
         background-image: url({{ meta.layout.path }}/cost_element_aqua_empty.png);
-    {% elif entity.elemental.element == "Aeris" %}
+    {% elif entity.elemental.element == "aeris" %}
         background-image: url({{ meta.layout.path }}/cost_element_aeris_empty.png);
-    {% elif entity.elemental.element == "Magica" %}
+    {% elif entity.elemental.element == "magica" %}
         background-image: url({{ meta.layout.path }}/cost_element_magica_empty.png);
-    {% elif entity.elemental.element == "Ungeprägt" %}
+    {% elif entity.elemental.element == "ungeprägt" %}
         background-image: url({{ meta.layout.path }}/cost_element_unshaped_empty.png);
     {% endif %}
 
