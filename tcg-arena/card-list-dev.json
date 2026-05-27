@@ -2971,13 +2971,13 @@
   },
   "566": {
     "id": "566",
-    "name": "Verdiente Pause",
+    "name": "Rettung der Weißen Wölfin",
     "Element": "aeris",
     "type": "Ereignis",
     "cost": 2,
     "face": {
       "front": {
-        "name": "Verdiente Pause",
+        "name": "Rettung der Weißen Wölfin",
         "type": "Ereignis",
         "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/566.jpg"
