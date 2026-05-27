@@ -1006,13 +1006,13 @@
   },
   "354": {
     "id": "354",
-    "name": "Baumgeist",
+    "name": "Wurzelgigant",
     "Element": "terra",
     "type": "Charakter",
     "cost": 6,
     "face": {
       "front": {
-        "name": "Baumgeist",
+        "name": "Wurzelgigant",
         "type": "Charakter",
         "cost": 6,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/354.jpg"
@@ -1126,13 +1126,13 @@
   },
   "368": {
     "id": "368",
-    "name": "Gottesschrein",
+    "name": "Monolith des Schutzes",
     "Element": "magica",
     "type": "Manifestation",
     "cost": 3,
     "face": {
       "front": {
-        "name": "Gottesschrein",
+        "name": "Monolith des Schutzes",
         "type": "Manifestation",
         "cost": 3,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/368.jpg"
@@ -1396,15 +1396,15 @@
   },
   "397": {
     "id": "397",
-    "name": "Sprengmeister",
+    "name": "Naruk, aus dem Wald",
     "Element": "ignis",
     "type": "Charakter",
-    "cost": 4,
+    "cost": 3,
     "face": {
       "front": {
-        "name": "Sprengmeister",
+        "name": "Naruk, aus dem Wald",
         "type": "Charakter",
-        "cost": 4,
+        "cost": 3,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/397.jpg"
       }
     }
@@ -2176,13 +2176,13 @@
   },
   "507": {
     "id": "507",
-    "name": "Hellenische Wälder",
+    "name": "Wald der Ahnen",
     "Element": "terra",
     "type": "Manifestation",
     "cost": 2,
     "face": {
       "front": {
-        "name": "Hellenische Wälder",
+        "name": "Wald der Ahnen",
         "type": "Manifestation",
         "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/507.jpg"
@@ -2506,13 +2506,13 @@
   },
   "531": {
     "id": "531",
-    "name": "Kraftreserve",
+    "name": "Kurzer Bianco Rausch",
     "Element": "ignis",
     "type": "Ereignis",
     "cost": 1,
     "face": {
       "front": {
-        "name": "Kraftreserve",
+        "name": "Kurzer Bianco Rausch",
         "type": "Ereignis",
         "cost": 1,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/531.jpg"
@@ -2596,13 +2596,13 @@
   },
   "538": {
     "id": "538",
-    "name": "Göttliche Gunst",
+    "name": "Arkane Segnung",
     "Element": "magica",
     "type": "Ereignis",
     "cost": 2,
     "face": {
       "front": {
-        "name": "Göttliche Gunst",
+        "name": "Arkane Segnung",
         "type": "Ereignis",
         "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/538.jpg"
@@ -2866,13 +2866,13 @@
   },
   "559": {
     "id": "559",
-    "name": "Dornenaltar",
+    "name": "Dornensanktum",
     "Element": "terra",
     "type": "Manifestation",
     "cost": 6,
     "face": {
       "front": {
-        "name": "Dornenaltar",
+        "name": "Dornensanktum",
         "type": "Manifestation",
         "cost": 6,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/559.jpg"
@@ -3259,12 +3259,12 @@
     "name": "Amara",
     "Element": "magica",
     "type": "Charakter",
-    "cost": 0,
+    "cost": 3,
     "face": {
       "front": {
         "name": "Amara",
         "type": "Charakter",
-        "cost": 0,
+        "cost": 3,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/590.jpg"
       }
     }
@@ -3571,13 +3571,13 @@
   },
   "615": {
     "id": "615",
-    "name": "IU12",
+    "name": "Gemeinsame Vergeltung",
     "Element": "ignis",
     "type": "Ereignis",
     "cost": 2,
     "face": {
       "front": {
-        "name": "IU12",
+        "name": "Gemeinsame Vergeltung",
         "type": "Ereignis",
         "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/615.jpg"
@@ -4411,13 +4411,13 @@
   },
   "672": {
     "id": "672",
-    "name": "Züngelndes Feuer",
+    "name": "Züngelnde Flammen",
     "Element": "ignis",
     "type": "Manifestation",
     "cost": 1,
     "face": {
       "front": {
-        "name": "Züngelndes Feuer",
+        "name": "Züngelnde Flammen",
         "type": "Manifestation",
         "cost": 1,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/672.jpg"
