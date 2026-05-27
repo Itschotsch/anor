@@ -4513,20 +4513,5 @@
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/678.jpg"
       }
     }
-  },
-  "682": {
-    "id": "682",
-    "name": "Kjeldor von Hallwyl",
-    "Element": null,
-    "type": null,
-    "cost": 0,
-    "face": {
-      "front": {
-        "name": "Kjeldor von Hallwyl",
-        "type": null,
-        "cost": 0,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/682.jpg"
-      }
-    }
   }
 }
