@@ -230,6 +230,8 @@ body {
     background-repeat: no-repeat;
 
     z-index: initial;
+
+    filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.5));
 }
 
 .devotion-element.hero {
@@ -293,21 +295,40 @@ body {
 }
 
 .parchment {
-    background-image: url({{ meta.layout.path }}/parchment.png);
-    background-size: 100% auto;
-    background-position: 50% bottom;
+    background-image:
+        url("{{ meta.layout.path }}/releases/Release1-StarterDecks/release_logo_watermark.svg"),
+        url("{{ meta.layout.path }}/parchment.png");
+
+    background-position:
+        center center,
+        50% bottom;
+
+    background-size:
+        15rem,
+        100% auto;
+
+    background-repeat:
+        no-repeat,
+        no-repeat;
+
+    background-blend-mode:
+        screen;
 
     border-radius: 2vw;
-
     position: relative;
-
     min-height: 19vw;
     margin: 7vw;
     padding: 5vw 3.5vw;
+    overflow: hide;
 
     z-index: -1;
 
-    box-shadow: 0 0.5vw 4vw 0 rgba(0,0,0,0.75), 0 0.5vw 7vw 0 rgba(0,0,0,0.75) inset;
+    box-shadow:
+        0 0.5vw 4vw 0 rgba(0,0,0,0.75),
+        0 0.5vw 7vw 0 rgba(0,0,0,0.75) inset;
+    /* Fix weird corner artifacts */
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.5);
 
     filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.5));
 }
@@ -356,9 +377,12 @@ body {
     padding-top: 0.5vw;
 }
 
-.entity-type+.description,
-.description+.flavour-text {
+.entity-type+.description {
     padding-top: 1.2vw;
+}
+
+.description+.flavour-text {
+    padding-top: 2vw;
 }
 
 .flavour-text {
@@ -621,6 +645,8 @@ element::after {
     align-items: center;
     font-family: "StatsFont", serif;
     font-size: 6.5vw;
+
+    filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.5));
 }
 
 .elemental>p {
