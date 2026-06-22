@@ -514,12 +514,12 @@
     "name": "Mystische Frucht Terras",
     "Element": "terra",
     "type": "Ereignis",
-    "cost": 4,
+    "cost": 3,
     "face": {
       "front": {
         "name": "Mystische Frucht Terras",
         "type": "Ereignis",
-        "cost": 4,
+        "cost": 3,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/225.jpg"
       }
     }
@@ -676,13 +676,13 @@
   },
   "292": {
     "id": "292",
-    "name": "Eva vom Strand",
+    "name": "Eva vom Strand, Heerführerin des Märkischen Bunds",
     "Element": "terra",
     "type": "Charakter",
     "cost": 4,
     "face": {
       "front": {
-        "name": "Eva vom Strand",
+        "name": "Eva vom Strand, Heerführerin des Märkischen Bunds",
         "type": "Charakter",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/292.jpg"
@@ -766,13 +766,13 @@
   },
   "317": {
     "id": "317",
-    "name": "Wächter aus Dun Aisleang",
+    "name": "Knappe Heinrich",
     "Element": "magica",
     "type": "Charakter",
     "cost": 2,
     "face": {
       "front": {
-        "name": "Wächter aus Dun Aisleang",
+        "name": "Knappe Heinrich",
         "type": "Charakter",
         "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/317.jpg"
@@ -1124,6 +1124,21 @@
       }
     }
   },
+  "367": {
+    "id": "367",
+    "name": "Sternenschauer",
+    "Element": "ungeprägt",
+    "type": "Ereignis",
+    "cost": 8,
+    "face": {
+      "front": {
+        "name": "Sternenschauer",
+        "type": "Ereignis",
+        "cost": 8,
+        "image": "https://itschotsch.github.io/anor/export/dev/jpg/367.jpg"
+      }
+    }
+  },
   "368": {
     "id": "368",
     "name": "Monolith des Schutzes",
@@ -1186,13 +1201,13 @@
   },
   "373": {
     "id": "373",
-    "name": "Standhafter Verteidiger",
+    "name": "Sodalt Trumpfer, finsterer Deserteur",
     "Element": "terra",
     "type": "Charakter",
     "cost": 4,
     "face": {
       "front": {
-        "name": "Standhafter Verteidiger",
+        "name": "Sodalt Trumpfer, finsterer Deserteur",
         "type": "Charakter",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/373.jpg"
@@ -1276,13 +1291,13 @@
   },
   "382": {
     "id": "382",
-    "name": "Bogenschütze",
+    "name": "Erik der Wanderer, treffsicherer Armbrustschütze",
     "Element": "aeris",
     "type": "Charakter",
     "cost": 2,
     "face": {
       "front": {
-        "name": "Bogenschütze",
+        "name": "Erik der Wanderer, treffsicherer Armbrustschütze",
         "type": "Charakter",
         "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/382.jpg"
@@ -1361,6 +1376,21 @@
         "type": "Charakter",
         "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/391.jpg"
+      }
+    }
+  },
+  "392": {
+    "id": "392",
+    "name": "Mord",
+    "Element": "ungeprägt",
+    "type": "Ereignis",
+    "cost": 6,
+    "face": {
+      "front": {
+        "name": "Mord",
+        "type": "Ereignis",
+        "cost": 6,
+        "image": "https://itschotsch.github.io/anor/export/dev/jpg/392.jpg"
       }
     }
   },
@@ -2236,13 +2266,13 @@
   },
   "512": {
     "id": "512",
-    "name": "Turbulente",
+    "name": "Phrantz Gassenhauer",
     "Element": "aeris",
     "type": "Charakter",
     "cost": 1,
     "face": {
       "front": {
-        "name": "Turbulente",
+        "name": "Phrantz Gassenhauer",
         "type": "Charakter",
         "cost": 1,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/512.jpg"
@@ -2314,12 +2344,12 @@
     "name": "Verlegener Blick",
     "Element": "aqua",
     "type": "Ereignis",
-    "cost": 3,
+    "cost": 2,
     "face": {
       "front": {
         "name": "Verlegener Blick",
         "type": "Ereignis",
-        "cost": 3,
+        "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/517.jpg"
       }
     }
@@ -2489,6 +2519,21 @@
       }
     }
   },
+  "529": {
+    "id": "529",
+    "name": "Zyklop",
+    "Element": "ignis",
+    "type": "Charakter",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Zyklop",
+        "type": "Charakter",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/dev/jpg/529.jpg"
+      }
+    }
+  },
   "530": {
     "id": "530",
     "name": "Reinhard vom Greifenberg, Söldner der Morgenröte",
@@ -2516,6 +2561,21 @@
         "type": "Ereignis",
         "cost": 1,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/531.jpg"
+      }
+    }
+  },
+  "532": {
+    "id": "532",
+    "name": "Novizin des Ausgleichs",
+    "Element": "magica",
+    "type": "Charakter",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Novizin des Ausgleichs",
+        "type": "Charakter",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/dev/jpg/532.jpg"
       }
     }
   },
@@ -2636,6 +2696,21 @@
         "type": "Charakter",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/540.jpg"
+      }
+    }
+  },
+  "541": {
+    "id": "541",
+    "name": "TC14",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "TC14",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/dev/jpg/541.jpg"
       }
     }
   },
@@ -2824,12 +2899,12 @@
     "name": "Wir stehen zusammen!",
     "Element": "terra",
     "type": "Ereignis",
-    "cost": 3,
+    "cost": 2,
     "face": {
       "front": {
         "name": "Wir stehen zusammen!",
         "type": "Ereignis",
-        "cost": 3,
+        "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/556.jpg"
       }
     }
@@ -3226,13 +3301,13 @@
   },
   "588": {
     "id": "588",
-    "name": "MU14",
+    "name": "Gemeinsame Weihe",
     "Element": "magica",
     "type": "Ereignis",
     "cost": 5,
     "face": {
       "front": {
-        "name": "MU14",
+        "name": "Gemeinsame Weihe",
         "type": "Ereignis",
         "cost": 5,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/588.jpg"
@@ -3781,13 +3856,13 @@
   },
   "629": {
     "id": "629",
-    "name": "Herr Strauß, Fantenjäger",
+    "name": "Herr Strauss, Fantenjäger",
     "Element": "aqua",
     "type": "Charakter",
     "cost": 4,
     "face": {
       "front": {
-        "name": "Herr Strauß, Fantenjäger",
+        "name": "Herr Strauss, Fantenjäger",
         "type": "Charakter",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/629.jpg"
@@ -4009,12 +4084,12 @@
     "name": "Taynara Lyanne Idtris",
     "Element": "terra",
     "type": "Charakter",
-    "cost": 4,
+    "cost": 2,
     "face": {
       "front": {
         "name": "Taynara Lyanne Idtris",
         "type": "Charakter",
-        "cost": 4,
+        "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/645.jpg"
       }
     }
@@ -4054,12 +4129,12 @@
     "name": "Verbrannte Erde",
     "Element": "ignis",
     "type": "Ereignis",
-    "cost": 4,
+    "cost": 3,
     "face": {
       "front": {
         "name": "Verbrannte Erde",
         "type": "Ereignis",
-        "cost": 4,
+        "cost": 3,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/648.jpg"
       }
     }
@@ -4444,12 +4519,12 @@
     "name": "Und haben wir im Ranzen",
     "Element": "ignis",
     "type": "Ereignis",
-    "cost": 3,
+    "cost": 1,
     "face": {
       "front": {
         "name": "Und haben wir im Ranzen",
         "type": "Ereignis",
-        "cost": 3,
+        "cost": 1,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/674.jpg"
       }
     }
@@ -4486,13 +4561,13 @@
   },
   "677": {
     "id": "677",
-    "name": "Weit lasst die Fahnen wehen",
+    "name": "Sturmangriff!",
     "Element": "ignis",
     "type": "Ereignis",
     "cost": 4,
     "face": {
       "front": {
-        "name": "Weit lasst die Fahnen wehen",
+        "name": "Sturmangriff!",
         "type": "Ereignis",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/677.jpg"
