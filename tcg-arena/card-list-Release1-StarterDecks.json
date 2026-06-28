@@ -1,0 +1,1592 @@
+{
+  "54": {
+    "id": "54",
+    "name": "Zeno, giftige Kampfmagierin",
+    "Element": "ignis",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Zeno, giftige Kampfmagierin",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/54.jpg"
+      }
+    }
+  },
+  "66": {
+    "id": "66",
+    "name": "Grauer Stummfisch",
+    "Element": "aqua",
+    "type": "Charakter",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Grauer Stummfisch",
+        "type": "Charakter",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/66.jpg"
+      }
+    }
+  },
+  "165": {
+    "id": "165",
+    "name": "Aeris-Kraftkugel",
+    "Element": "aeris",
+    "type": "Ereignis",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Aeris-Kraftkugel",
+        "type": "Ereignis",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/165.jpg"
+      }
+    }
+  },
+  "167": {
+    "id": "167",
+    "name": "Terra-Kraftkugel",
+    "Element": "terra",
+    "type": "Ereignis",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Terra-Kraftkugel",
+        "type": "Ereignis",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/167.jpg"
+      }
+    }
+  },
+  "168": {
+    "id": "168",
+    "name": "Aqua-Kraftkugel",
+    "Element": "aqua",
+    "type": "Ereignis",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Aqua-Kraftkugel",
+        "type": "Ereignis",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/168.jpg"
+      }
+    }
+  },
+  "169": {
+    "id": "169",
+    "name": "Ignis-Kraftkugel",
+    "Element": "ignis",
+    "type": "Ereignis",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Ignis-Kraftkugel",
+        "type": "Ereignis",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/169.jpg"
+      }
+    }
+  },
+  "170": {
+    "id": "170",
+    "name": "Magica-Kraftkugel",
+    "Element": "magica",
+    "type": "Ereignis",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Magica-Kraftkugel",
+        "type": "Ereignis",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/170.jpg"
+      }
+    }
+  },
+  "185": {
+    "id": "185",
+    "name": "Sturmflut",
+    "Element": "aqua",
+    "type": "Ereignis",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Sturmflut",
+        "type": "Ereignis",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/185.jpg"
+      }
+    }
+  },
+  "187": {
+    "id": "187",
+    "name": "Giftiges Dornengestrüpp",
+    "Element": "terra",
+    "type": "Ereignis",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Giftiges Dornengestrüpp",
+        "type": "Ereignis",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/187.jpg"
+      }
+    }
+  },
+  "188": {
+    "id": "188",
+    "name": "Friedensbote",
+    "Element": "aqua",
+    "type": "Charakter",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Friedensbote",
+        "type": "Charakter",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/188.jpg"
+      }
+    }
+  },
+  "198": {
+    "id": "198",
+    "name": "Kleiner Aerisschrein",
+    "Element": "aeris",
+    "type": "Manifestation",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Kleiner Aerisschrein",
+        "type": "Manifestation",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/198.jpg"
+      }
+    }
+  },
+  "201": {
+    "id": "201",
+    "name": "Trügerischer Aqua-Brunnen",
+    "Element": "aqua",
+    "type": "Manifestation",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Trügerischer Aqua-Brunnen",
+        "type": "Manifestation",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/201.jpg"
+      }
+    }
+  },
+  "205": {
+    "id": "205",
+    "name": "Kleiner Ignisschrein",
+    "Element": "ignis",
+    "type": "Manifestation",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Kleiner Ignisschrein",
+        "type": "Manifestation",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/205.jpg"
+      }
+    }
+  },
+  "217": {
+    "id": "217",
+    "name": "Moment zum Durchatmen",
+    "Element": "aeris",
+    "type": "Ereignis",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Moment zum Durchatmen",
+        "type": "Ereignis",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/217.jpg"
+      }
+    }
+  },
+  "219": {
+    "id": "219",
+    "name": "Elementare Täuschung",
+    "Element": "aqua",
+    "type": "Ereignis",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Elementare Täuschung",
+        "type": "Ereignis",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/219.jpg"
+      }
+    }
+  },
+  "222": {
+    "id": "222",
+    "name": "Magiezucken",
+    "Element": "magica",
+    "type": "Ereignis",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Magiezucken",
+        "type": "Ereignis",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/222.jpg"
+      }
+    }
+  },
+  "223": {
+    "id": "223",
+    "name": "Vorstürmen",
+    "Element": "terra",
+    "type": "Ereignis",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Vorstürmen",
+        "type": "Ereignis",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/223.jpg"
+      }
+    }
+  },
+  "227": {
+    "id": "227",
+    "name": "Schubsen",
+    "Element": "aqua",
+    "type": "Ereignis",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Schubsen",
+        "type": "Ereignis",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/227.jpg"
+      }
+    }
+  },
+  "273": {
+    "id": "273",
+    "name": "Meléthin, die stürmische Gefährtin",
+    "Element": "aeris",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Meléthin, die stürmische Gefährtin",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/273.jpg"
+      }
+    }
+  },
+  "292": {
+    "id": "292",
+    "name": "Eva vom Strand, Heerführerin des Märkischen Bunds",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Eva vom Strand, Heerführerin des Märkischen Bunds",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/292.jpg"
+      }
+    }
+  },
+  "299": {
+    "id": "299",
+    "name": "Vertreter der Botengilde",
+    "Element": "aeris",
+    "type": "Charakter",
+    "cost": 1,
+    "face": {
+      "front": {
+        "name": "Vertreter der Botengilde",
+        "type": "Charakter",
+        "cost": 1,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/299.jpg"
+      }
+    }
+  },
+  "300": {
+    "id": "300",
+    "name": "Vertreterin der Magiergilde",
+    "Element": "magica",
+    "type": "Charakter",
+    "cost": 1,
+    "face": {
+      "front": {
+        "name": "Vertreterin der Magiergilde",
+        "type": "Charakter",
+        "cost": 1,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/300.jpg"
+      }
+    }
+  },
+  "302": {
+    "id": "302",
+    "name": "Vertreter der Seehandelsgilde",
+    "Element": "aqua",
+    "type": "Charakter",
+    "cost": 1,
+    "face": {
+      "front": {
+        "name": "Vertreter der Seehandelsgilde",
+        "type": "Charakter",
+        "cost": 1,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/302.jpg"
+      }
+    }
+  },
+  "306": {
+    "id": "306",
+    "name": "Vertreter der Kartographengilde",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 1,
+    "face": {
+      "front": {
+        "name": "Vertreter der Kartographengilde",
+        "type": "Charakter",
+        "cost": 1,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/306.jpg"
+      }
+    }
+  },
+  "317": {
+    "id": "317",
+    "name": "Knappe Heinrich, der Treue",
+    "Element": "magica",
+    "type": "Charakter",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Knappe Heinrich, der Treue",
+        "type": "Charakter",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/317.jpg"
+      }
+    }
+  },
+  "323": {
+    "id": "323",
+    "name": "Aurelia die Lichtverpflichtete",
+    "Element": "magica",
+    "type": "Charakter",
+    "cost": 7,
+    "face": {
+      "front": {
+        "name": "Aurelia die Lichtverpflichtete",
+        "type": "Charakter",
+        "cost": 7,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/323.jpg"
+      }
+    }
+  },
+  "328": {
+    "id": "328",
+    "name": "Koloss aus der Tiefe",
+    "Element": "aqua",
+    "type": "Charakter",
+    "cost": 7,
+    "face": {
+      "front": {
+        "name": "Koloss aus der Tiefe",
+        "type": "Charakter",
+        "cost": 7,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/328.jpg"
+      }
+    }
+  },
+  "329": {
+    "id": "329",
+    "name": "Vulkangolem",
+    "Element": "ignis",
+    "type": "Charakter",
+    "cost": 7,
+    "face": {
+      "front": {
+        "name": "Vulkangolem",
+        "type": "Charakter",
+        "cost": 7,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/329.jpg"
+      }
+    }
+  },
+  "331": {
+    "id": "331",
+    "name": "Atlas der Wanderer",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 7,
+    "face": {
+      "front": {
+        "name": "Atlas der Wanderer",
+        "type": "Charakter",
+        "cost": 7,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/331.jpg"
+      }
+    }
+  },
+  "338": {
+    "id": "338",
+    "name": "Hofkanzler Gandur, Meister der Propaganda",
+    "Element": "aqua",
+    "type": "Charakter",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Hofkanzler Gandur, Meister der Propaganda",
+        "type": "Charakter",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/338.jpg"
+      }
+    }
+  },
+  "342": {
+    "id": "342",
+    "name": "Moriel, Novizin der Alchemie",
+    "Element": "magica",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Moriel, Novizin der Alchemie",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/342.jpg"
+      }
+    }
+  },
+  "343": {
+    "id": "343",
+    "name": "Stoßgebet zu den Elementen",
+    "Element": "aqua",
+    "type": "Ereignis",
+    "cost": 1,
+    "face": {
+      "front": {
+        "name": "Stoßgebet zu den Elementen",
+        "type": "Ereignis",
+        "cost": 1,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/343.jpg"
+      }
+    }
+  },
+  "350": {
+    "id": "350",
+    "name": "Jannik, rasender Rekrut",
+    "Element": "ignis",
+    "type": "Charakter",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Jannik, rasender Rekrut",
+        "type": "Charakter",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/350.jpg"
+      }
+    }
+  },
+  "351": {
+    "id": "351",
+    "name": "Adrean, talentierter Söldner",
+    "Element": "ignis",
+    "type": "Charakter",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Adrean, talentierter Söldner",
+        "type": "Charakter",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/351.jpg"
+      }
+    }
+  },
+  "352": {
+    "id": "352",
+    "name": "Gourmand  Prasser, Soldat von Bjartur",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Gourmand  Prasser, Soldat von Bjartur",
+        "type": "Charakter",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/352.jpg"
+      }
+    }
+  },
+  "354": {
+    "id": "354",
+    "name": "Wurzelgigant",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 6,
+    "face": {
+      "front": {
+        "name": "Wurzelgigant",
+        "type": "Charakter",
+        "cost": 6,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/354.jpg"
+      }
+    }
+  },
+  "356": {
+    "id": "356",
+    "name": "Vertreter der Bardengilde",
+    "Element": "ignis",
+    "type": "Charakter",
+    "cost": 1,
+    "face": {
+      "front": {
+        "name": "Vertreter der Bardengilde",
+        "type": "Charakter",
+        "cost": 1,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/356.jpg"
+      }
+    }
+  },
+  "365": {
+    "id": "365",
+    "name": "Ermutigende Ansprache",
+    "Element": "terra",
+    "type": "Ereignis",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Ermutigende Ansprache",
+        "type": "Ereignis",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/365.jpg"
+      }
+    }
+  },
+  "366": {
+    "id": "366",
+    "name": "Vulkanausbruch",
+    "Element": "ignis",
+    "type": "Ereignis",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Vulkanausbruch",
+        "type": "Ereignis",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/366.jpg"
+      }
+    }
+  },
+  "367": {
+    "id": "367",
+    "name": "Sternenschauer",
+    "Element": "ungeprägt",
+    "type": "Ereignis",
+    "cost": 8,
+    "face": {
+      "front": {
+        "name": "Sternenschauer",
+        "type": "Ereignis",
+        "cost": 8,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/367.jpg"
+      }
+    }
+  },
+  "373": {
+    "id": "373",
+    "name": "Soldat Trumpfer, finsterer Deserteur",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Soldat Trumpfer, finsterer Deserteur",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/373.jpg"
+      }
+    }
+  },
+  "378": {
+    "id": "378",
+    "name": "Chadra, Neshes 'Re des Südlichen Siegels",
+    "Element": "magica",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Chadra, Neshes 'Re des Südlichen Siegels",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/378.jpg"
+      }
+    }
+  },
+  "382": {
+    "id": "382",
+    "name": "Erik der Wanderer, treffsicherer Armbrustschütze",
+    "Element": "aeris",
+    "type": "Charakter",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Erik der Wanderer, treffsicherer Armbrustschütze",
+        "type": "Charakter",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/382.jpg"
+      }
+    }
+  },
+  "390": {
+    "id": "390",
+    "name": "Runa Dreyschuß, Herrin der Bresche",
+    "Element": "ignis",
+    "type": "Charakter",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Runa Dreyschuß, Herrin der Bresche",
+        "type": "Charakter",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/390.jpg"
+      }
+    }
+  },
+  "392": {
+    "id": "392",
+    "name": "Mord",
+    "Element": "ungeprägt",
+    "type": "Ereignis",
+    "cost": 6,
+    "face": {
+      "front": {
+        "name": "Mord",
+        "type": "Ereignis",
+        "cost": 6,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/392.jpg"
+      }
+    }
+  },
+  "393": {
+    "id": "393",
+    "name": "Mächtiger Steingolem",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 8,
+    "face": {
+      "front": {
+        "name": "Mächtiger Steingolem",
+        "type": "Charakter",
+        "cost": 8,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/393.jpg"
+      }
+    }
+  },
+  "394": {
+    "id": "394",
+    "name": "Leon, Lautloser Vollstrecker",
+    "Element": "aqua",
+    "type": "Charakter",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Leon, Lautloser Vollstrecker",
+        "type": "Charakter",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/394.jpg"
+      }
+    }
+  },
+  "397": {
+    "id": "397",
+    "name": "Naruk, aus dem Wald",
+    "Element": "ignis",
+    "type": "Charakter",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Naruk, aus dem Wald",
+        "type": "Charakter",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/397.jpg"
+      }
+    }
+  },
+  "402": {
+    "id": "402",
+    "name": "Dahlia bint Ishaq al-Bahar, Die Wissenssucherin",
+    "Element": "aqua",
+    "type": "Charakter",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Dahlia bint Ishaq al-Bahar, Die Wissenssucherin",
+        "type": "Charakter",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/402.jpg"
+      }
+    }
+  },
+  "403": {
+    "id": "403",
+    "name": "Provozierender Frosch",
+    "Element": "aqua",
+    "type": "Charakter",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Provozierender Frosch",
+        "type": "Charakter",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/403.jpg"
+      }
+    }
+  },
+  "404": {
+    "id": "404",
+    "name": "Kleiner Magicaschrein",
+    "Element": "magica",
+    "type": "Manifestation",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Kleiner Magicaschrein",
+        "type": "Manifestation",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/404.jpg"
+      }
+    }
+  },
+  "406": {
+    "id": "406",
+    "name": "Kasha, Champion des Wandels",
+    "Element": "ignis",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Kasha, Champion des Wandels",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/406.jpg"
+      }
+    }
+  },
+  "407": {
+    "id": "407",
+    "name": "Annun Kamik, der Eismagier",
+    "Element": "magica",
+    "type": "Charakter",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Annun Kamik, der Eismagier",
+        "type": "Charakter",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/407.jpg"
+      }
+    }
+  },
+  "452": {
+    "id": "452",
+    "name": "Verheerendes Beben",
+    "Element": "terra",
+    "type": "Ereignis",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Verheerendes Beben",
+        "type": "Ereignis",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/452.jpg"
+      }
+    }
+  },
+  "453": {
+    "id": "453",
+    "name": "Aramis von Rabenstein, Priester des Lichts",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Aramis von Rabenstein, Priester des Lichts",
+        "type": "Charakter",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/453.jpg"
+      }
+    }
+  },
+  "456": {
+    "id": "456",
+    "name": "Artillerie-Bombardement",
+    "Element": "ignis",
+    "type": "Ereignis",
+    "cost": 6,
+    "face": {
+      "front": {
+        "name": "Artillerie-Bombardement",
+        "type": "Ereignis",
+        "cost": 6,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/456.jpg"
+      }
+    }
+  },
+  "459": {
+    "id": "459",
+    "name": "Ausmerzen",
+    "Element": "magica",
+    "type": "Ereignis",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Ausmerzen",
+        "type": "Ereignis",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/459.jpg"
+      }
+    }
+  },
+  "460": {
+    "id": "460",
+    "name": "Weltenbrand",
+    "Element": "magica",
+    "type": "Ereignis",
+    "cost": 6,
+    "face": {
+      "front": {
+        "name": "Weltenbrand",
+        "type": "Ereignis",
+        "cost": 6,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/460.jpg"
+      }
+    }
+  },
+  "461": {
+    "id": "461",
+    "name": "Siegelpyramide",
+    "Element": "magica",
+    "type": "Manifestation",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Siegelpyramide",
+        "type": "Manifestation",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/461.jpg"
+      }
+    }
+  },
+  "469": {
+    "id": "469",
+    "name": "James Rian, Soldat von Bjartur",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "James Rian, Soldat von Bjartur",
+        "type": "Charakter",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/469.jpg"
+      }
+    }
+  },
+  "470": {
+    "id": "470",
+    "name": "Keroth, Thul'Heen des Südlichen Siegels",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 7,
+    "face": {
+      "front": {
+        "name": "Keroth, Thul'Heen des Südlichen Siegels",
+        "type": "Charakter",
+        "cost": 7,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/470.jpg"
+      }
+    }
+  },
+  "475": {
+    "id": "475",
+    "name": "Sirka Sorlissos, Hüterin der Wälder",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Sirka Sorlissos, Hüterin der Wälder",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/475.jpg"
+      }
+    }
+  },
+  "477": {
+    "id": "477",
+    "name": "Kardes, der Feldkoch",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Kardes, der Feldkoch",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/477.jpg"
+      }
+    }
+  },
+  "479": {
+    "id": "479",
+    "name": "Sir Beolf, Hauptmann des Südlichen Siegels",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Sir Beolf, Hauptmann des Südlichen Siegels",
+        "type": "Charakter",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/479.jpg"
+      }
+    }
+  },
+  "482": {
+    "id": "482",
+    "name": "Thulmann, Weibel der Armee Bjarturs",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Thulmann, Weibel der Armee Bjarturs",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/482.jpg"
+      }
+    }
+  },
+  "483": {
+    "id": "483",
+    "name": "Konrad, Waffenknecht in Bjartur",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Konrad, Waffenknecht in Bjartur",
+        "type": "Charakter",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/483.jpg"
+      }
+    }
+  },
+  "484": {
+    "id": "484",
+    "name": "Eron von Grauenfurt, Ignis-Priester",
+    "Element": "ignis",
+    "type": "Charakter",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Eron von Grauenfurt, Ignis-Priester",
+        "type": "Charakter",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/484.jpg"
+      }
+    }
+  },
+  "486": {
+    "id": "486",
+    "name": "Sarius, Kundschafter der Hofkanzlei",
+    "Element": "aqua",
+    "type": "Charakter",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Sarius, Kundschafter der Hofkanzlei",
+        "type": "Charakter",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/486.jpg"
+      }
+    }
+  },
+  "487": {
+    "id": "487",
+    "name": "Corvin, die Rückhand Bjarturs",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Corvin, die Rückhand Bjarturs",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/487.jpg"
+      }
+    }
+  },
+  "488": {
+    "id": "488",
+    "name": "Theo, Wächter des Waldes",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Theo, Wächter des Waldes",
+        "type": "Charakter",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/488.jpg"
+      }
+    }
+  },
+  "489": {
+    "id": "489",
+    "name": "Markus Morgenwind, Leibwächter",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Markus Morgenwind, Leibwächter",
+        "type": "Charakter",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/489.jpg"
+      }
+    }
+  },
+  "490": {
+    "id": "490",
+    "name": "Jean-Jacques, Waffenknecht in Bjartur",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Jean-Jacques, Waffenknecht in Bjartur",
+        "type": "Charakter",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/490.jpg"
+      }
+    }
+  },
+  "493": {
+    "id": "493",
+    "name": "Phillipp Altdorf, Meldeläufer des Thul’Heens",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Phillipp Altdorf, Meldeläufer des Thul’Heens",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/493.jpg"
+      }
+    }
+  },
+  "494": {
+    "id": "494",
+    "name": "“Keilformation bilden!”",
+    "Element": "terra",
+    "type": "Ereignis",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "“Keilformation bilden!”",
+        "type": "Ereignis",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/494.jpg"
+      }
+    }
+  },
+  "506": {
+    "id": "506",
+    "name": "Scamall le Casúr, Söldner der Morgenröte",
+    "Element": "ignis",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Scamall le Casúr, Söldner der Morgenröte",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/506.jpg"
+      }
+    }
+  },
+  "507": {
+    "id": "507",
+    "name": "Wald der Ahnen",
+    "Element": "terra",
+    "type": "Manifestation",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Wald der Ahnen",
+        "type": "Manifestation",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/507.jpg"
+      }
+    }
+  },
+  "509": {
+    "id": "509",
+    "name": "Eiserne Mauer",
+    "Element": "terra",
+    "type": "Manifestation",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Eiserne Mauer",
+        "type": "Manifestation",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/509.jpg"
+      }
+    }
+  },
+  "512": {
+    "id": "512",
+    "name": "Phrantz Gassenhauer, Gardist von Gloria",
+    "Element": "aeris",
+    "type": "Charakter",
+    "cost": 1,
+    "face": {
+      "front": {
+        "name": "Phrantz Gassenhauer, Gardist von Gloria",
+        "type": "Charakter",
+        "cost": 1,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/512.jpg"
+      }
+    }
+  },
+  "514": {
+    "id": "514",
+    "name": "Schimmernder Schreikarpfen",
+    "Element": "aqua",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Schimmernder Schreikarpfen",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/514.jpg"
+      }
+    }
+  },
+  "517": {
+    "id": "517",
+    "name": "Verlegener Blick",
+    "Element": "aqua",
+    "type": "Ereignis",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Verlegener Blick",
+        "type": "Ereignis",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/517.jpg"
+      }
+    }
+  },
+  "518": {
+    "id": "518",
+    "name": "Kleiner Aquaschrein",
+    "Element": "aqua",
+    "type": "Manifestation",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Kleiner Aquaschrein",
+        "type": "Manifestation",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/518.jpg"
+      }
+    }
+  },
+  "520": {
+    "id": "520",
+    "name": "Elias Greer",
+    "Element": "aeris",
+    "type": "Charakter",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Elias Greer",
+        "type": "Charakter",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/520.jpg"
+      }
+    }
+  },
+  "523": {
+    "id": "523",
+    "name": "Thea Eisenfeder, Fanatikerin",
+    "Element": "aeris",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Thea Eisenfeder, Fanatikerin",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/523.jpg"
+      }
+    }
+  },
+  "524": {
+    "id": "524",
+    "name": "Cari Eisenfeder, Knappin der Gunnarswacht",
+    "Element": "aeris",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Cari Eisenfeder, Knappin der Gunnarswacht",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/524.jpg"
+      }
+    }
+  },
+  "525": {
+    "id": "525",
+    "name": "Gwen Eisenfeder",
+    "Element": "aeris",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Gwen Eisenfeder",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/525.jpg"
+      }
+    }
+  },
+  "535": {
+    "id": "535",
+    "name": "Einfacher Schutzzauber",
+    "Element": "magica",
+    "type": "Ereignis",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Einfacher Schutzzauber",
+        "type": "Ereignis",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/535.jpg"
+      }
+    }
+  },
+  "539": {
+    "id": "539",
+    "name": "Charon, Wächter des Waldes",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Charon, Wächter des Waldes",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/539.jpg"
+      }
+    }
+  },
+  "540": {
+    "id": "540",
+    "name": "Luuk aus Rosenthal, Soldat von Bjartur",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Luuk aus Rosenthal, Soldat von Bjartur",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/540.jpg"
+      }
+    }
+  },
+  "545": {
+    "id": "545",
+    "name": "Feuerpfeile",
+    "Element": "ignis",
+    "type": "Ereignis",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Feuerpfeile",
+        "type": "Ereignis",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/545.jpg"
+      }
+    }
+  },
+  "546": {
+    "id": "546",
+    "name": "Feuersbrunst",
+    "Element": "ignis",
+    "type": "Ereignis",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Feuersbrunst",
+        "type": "Ereignis",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/546.jpg"
+      }
+    }
+  },
+  "554": {
+    "id": "554",
+    "name": "Sir Roven Silverblade",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Sir Roven Silverblade",
+        "type": "Charakter",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/554.jpg"
+      }
+    }
+  },
+  "555": {
+    "id": "555",
+    "name": "Basilisk",
+    "Element": "terra",
+    "type": "Charakter",
+    "cost": 7,
+    "face": {
+      "front": {
+        "name": "Basilisk",
+        "type": "Charakter",
+        "cost": 7,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/555.jpg"
+      }
+    }
+  },
+  "558": {
+    "id": "558",
+    "name": "Heerlager",
+    "Element": "terra",
+    "type": "Manifestation",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Heerlager",
+        "type": "Manifestation",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/558.jpg"
+      }
+    }
+  },
+  "559": {
+    "id": "559",
+    "name": "Dornensanktum",
+    "Element": "terra",
+    "type": "Manifestation",
+    "cost": 6,
+    "face": {
+      "front": {
+        "name": "Dornensanktum",
+        "type": "Manifestation",
+        "cost": 6,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/559.jpg"
+      }
+    }
+  },
+  "561": {
+    "id": "561",
+    "name": "Wächter von Irgendwann",
+    "Element": "aeris",
+    "type": "Charakter",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Wächter von Irgendwann",
+        "type": "Charakter",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/561.jpg"
+      }
+    }
+  },
+  "570": {
+    "id": "570",
+    "name": "Verheerender Pfeilhagel",
+    "Element": "aeris",
+    "type": "Ereignis",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Verheerender Pfeilhagel",
+        "type": "Ereignis",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/570.jpg"
+      }
+    }
+  },
+  "580": {
+    "id": "580",
+    "name": "Vialaychanne, gutmütige Magierin",
+    "Element": "magica",
+    "type": "Charakter",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Vialaychanne, gutmütige Magierin",
+        "type": "Charakter",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/580.jpg"
+      }
+    }
+  },
+  "586": {
+    "id": "586",
+    "name": "Arkaner Gegenschlag",
+    "Element": "magica",
+    "type": "Ereignis",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Arkaner Gegenschlag",
+        "type": "Ereignis",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/586.jpg"
+      }
+    }
+  },
+  "590": {
+    "id": "590",
+    "name": "Amara",
+    "Element": "magica",
+    "type": "Charakter",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Amara",
+        "type": "Charakter",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/590.jpg"
+      }
+    }
+  },
+  "613": {
+    "id": "613",
+    "name": "Awisandum, Feuermagier",
+    "Element": "ignis",
+    "type": "Charakter",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Awisandum, Feuermagier",
+        "type": "Charakter",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/613.jpg"
+      }
+    }
+  },
+  "621": {
+    "id": "621",
+    "name": "Nehek, Seelengefäß",
+    "Element": "magica",
+    "type": "Charakter",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Nehek, Seelengefäß",
+        "type": "Charakter",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/621.jpg"
+      }
+    }
+  },
+  "640": {
+    "id": "640",
+    "name": "Joel Siegesmund, Heerführer des Westens",
+    "Element": "aeris",
+    "type": "Charakter",
+    "cost": 6,
+    "face": {
+      "front": {
+        "name": "Joel Siegesmund, Heerführer des Westens",
+        "type": "Charakter",
+        "cost": 6,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/640.jpg"
+      }
+    }
+  },
+  "641": {
+    "id": "641",
+    "name": "Sir Lothar von Albstein, Hammer von Sankt Georg",
+    "Element": "aeris",
+    "type": "Charakter",
+    "cost": 7,
+    "face": {
+      "front": {
+        "name": "Sir Lothar von Albstein, Hammer von Sankt Georg",
+        "type": "Charakter",
+        "cost": 7,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/641.jpg"
+      }
+    }
+  },
+  "650": {
+    "id": "650",
+    "name": "Deus Vult",
+    "Element": "aeris",
+    "type": "Ereignis",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Deus Vult",
+        "type": "Ereignis",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/650.jpg"
+      }
+    }
+  },
+  "657": {
+    "id": "657",
+    "name": "Kraftentzug",
+    "Element": "magica",
+    "type": "Ereignis",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Kraftentzug",
+        "type": "Ereignis",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/657.jpg"
+      }
+    }
+  },
+  "662": {
+    "id": "662",
+    "name": "Sonnensphinx",
+    "Element": "magica",
+    "type": "Manifestation",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Sonnensphinx",
+        "type": "Manifestation",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/Release1-StarterDecks/jpg/662.jpg"
+      }
+    }
+  }
+}
