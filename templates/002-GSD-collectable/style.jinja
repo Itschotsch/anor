@@ -294,16 +294,23 @@ body {
 
 .parchment {
     background-image:
+        url("{{ meta.layout.path }}/releases/Release1-StarterDecks/release_logo_watermark.svg"),
         url("{{ meta.layout.path }}/parchment.png");
 
     background-position:
+        center calc(50% + 5vw / 2),
         50% bottom;
 
     background-size:
+        auto 7.5rem,
         100% auto;
 
     background-repeat:
+        no-repeat,
         no-repeat;
+
+    background-blend-mode:
+        screen;
 
     border-radius: 2vw;
     position: relative;
