@@ -1,43 +1,13 @@
 {
-  "3": {
-    "id": "3",
-    "name": "Weißer Greif",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 6,
-    "face": {
-      "front": {
-        "name": "Weißer Greif",
-        "type": "Charakter",
-        "cost": 6,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/3.jpg"
-      }
-    }
-  },
-  "4": {
-    "id": "4",
-    "name": "Heulende Rieseneule",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Heulende Rieseneule",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/4.jpg"
-      }
-    }
-  },
   "54": {
     "id": "54",
-    "name": "Aufstrebende Pyromanin",
+    "name": "Zeno, giftige Kampfmagierin",
     "Element": "ignis",
     "type": "Charakter",
     "cost": 4,
     "face": {
       "front": {
-        "name": "Aufstrebende Pyromanin",
+        "name": "Zeno, giftige Kampfmagierin",
         "type": "Charakter",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/54.jpg"
@@ -56,36 +26,6 @@
         "type": "Charakter",
         "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/66.jpg"
-      }
-    }
-  },
-  "152": {
-    "id": "152",
-    "name": "Elementarwandel",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Elementarwandel",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/152.jpg"
-      }
-    }
-  },
-  "164": {
-    "id": "164",
-    "name": "Namenloser Ryv'Jorl, stiller Infiltrator",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Namenloser Ryv'Jorl, stiller Infiltrator",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/164.jpg"
       }
     }
   },
@@ -164,51 +104,6 @@
       }
     }
   },
-  "173": {
-    "id": "173",
-    "name": "Siegel verankern",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Siegel verankern",
-        "type": "Ereignis",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/173.jpg"
-      }
-    }
-  },
-  "174": {
-    "id": "174",
-    "name": "Magiekontrolle",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Magiekontrolle",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/174.jpg"
-      }
-    }
-  },
-  "181": {
-    "id": "181",
-    "name": "“Schildwall!”",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "“Schildwall!”",
-        "type": "Ereignis",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/181.jpg"
-      }
-    }
-  },
   "185": {
     "id": "185",
     "name": "Sturmflut",
@@ -254,63 +149,18 @@
       }
     }
   },
-  "189": {
-    "id": "189",
-    "name": "Sir Tristan, Ritter von Bjartur",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Sir Tristan, Ritter von Bjartur",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/189.jpg"
-      }
-    }
-  },
-  "197": {
-    "id": "197",
-    "name": "Terraschrein des Kreislaufs",
-    "Element": "terra",
-    "type": "Manifestation",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Terraschrein des Kreislaufs",
-        "type": "Manifestation",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/197.jpg"
-      }
-    }
-  },
   "198": {
     "id": "198",
-    "name": "Stürmischer Aerisschrein",
+    "name": "Kleiner Aerisschrein",
     "Element": "aeris",
     "type": "Manifestation",
     "cost": 2,
     "face": {
       "front": {
-        "name": "Stürmischer Aerisschrein",
+        "name": "Kleiner Aerisschrein",
         "type": "Manifestation",
         "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/198.jpg"
-      }
-    }
-  },
-  "200": {
-    "id": "200",
-    "name": "Großer Ignisschrein",
-    "Element": "ignis",
-    "type": "Manifestation",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Großer Ignisschrein",
-        "type": "Manifestation",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/200.jpg"
       }
     }
   },
@@ -344,51 +194,6 @@
       }
     }
   },
-  "211": {
-    "id": "211",
-    "name": "Großer Magicaschrein",
-    "Element": "magica",
-    "type": "Manifestation",
-    "cost": 8,
-    "face": {
-      "front": {
-        "name": "Großer Magicaschrein",
-        "type": "Manifestation",
-        "cost": 8,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/211.jpg"
-      }
-    }
-  },
-  "213": {
-    "id": "213",
-    "name": "Zeitspiel",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Zeitspiel",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/213.jpg"
-      }
-    }
-  },
-  "215": {
-    "id": "215",
-    "name": "Den Kreislauf ehren",
-    "Element": "terra",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Den Kreislauf ehren",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/215.jpg"
-      }
-    }
-  },
   "217": {
     "id": "217",
     "name": "Moment zum Durchatmen",
@@ -404,21 +209,6 @@
       }
     }
   },
-  "218": {
-    "id": "218",
-    "name": "Duell-Arena",
-    "Element": "ignis",
-    "type": "Manifestation",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Duell-Arena",
-        "type": "Manifestation",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/218.jpg"
-      }
-    }
-  },
   "219": {
     "id": "219",
     "name": "Elementare Täuschung",
@@ -431,36 +221,6 @@
         "type": "Ereignis",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/219.jpg"
-      }
-    }
-  },
-  "220": {
-    "id": "220",
-    "name": "Das Gleichgewicht wahren",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Das Gleichgewicht wahren",
-        "type": "Ereignis",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/220.jpg"
-      }
-    }
-  },
-  "221": {
-    "id": "221",
-    "name": "“Halt!”",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "“Halt!”",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/221.jpg"
       }
     }
   },
@@ -494,51 +254,6 @@
       }
     }
   },
-  "224": {
-    "id": "224",
-    "name": "Nachwachsen",
-    "Element": "terra",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Nachwachsen",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/224.jpg"
-      }
-    }
-  },
-  "225": {
-    "id": "225",
-    "name": "Mystische Frucht Terras",
-    "Element": "terra",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Mystische Frucht Terras",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/225.jpg"
-      }
-    }
-  },
-  "226": {
-    "id": "226",
-    "name": "Die Sanduhr drehen",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Die Sanduhr drehen",
-        "type": "Ereignis",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/226.jpg"
-      }
-    }
-  },
   "227": {
     "id": "227",
     "name": "Schubsen",
@@ -554,123 +269,18 @@
       }
     }
   },
-  "229": {
-    "id": "229",
-    "name": "Irreführung",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Irreführung",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/229.jpg"
-      }
-    }
-  },
-  "235": {
-    "id": "235",
-    "name": "Soraya Phönixflamme",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Soraya Phönixflamme",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/235.jpg"
-      }
-    }
-  },
-  "237": {
-    "id": "237",
-    "name": "Zerschmettern",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 8,
-    "face": {
-      "front": {
-        "name": "Zerschmettern",
-        "type": "Ereignis",
-        "cost": 8,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/237.jpg"
-      }
-    }
-  },
-  "257": {
-    "id": "257",
-    "name": "Spontane Kreativität",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Spontane Kreativität",
-        "type": "Ereignis",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/257.jpg"
-      }
-    }
-  },
-  "271": {
-    "id": "271",
-    "name": "Hagen, der Zerstörer",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Hagen, der Zerstörer",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/271.jpg"
-      }
-    }
-  },
   "273": {
     "id": "273",
-    "name": "Meléthin, die stürmische Gefährtin",
+    "name": "Meléthin, stürmische Gefährtin",
     "Element": "aeris",
     "type": "Charakter",
     "cost": 4,
     "face": {
       "front": {
-        "name": "Meléthin, die stürmische Gefährtin",
+        "name": "Meléthin, stürmische Gefährtin",
         "type": "Charakter",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/273.jpg"
-      }
-    }
-  },
-  "279": {
-    "id": "279",
-    "name": "Kadienor Edox, die Zeitwächterin",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Kadienor Edox, die Zeitwächterin",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/279.jpg"
-      }
-    }
-  },
-  "285": {
-    "id": "285",
-    "name": "Iriel-Elisha",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Iriel-Elisha",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/285.jpg"
       }
     }
   },
@@ -749,78 +359,33 @@
       }
     }
   },
-  "311": {
-    "id": "311",
-    "name": "Wächterin von Irgendwie",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Wächterin von Irgendwie",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/311.jpg"
-      }
-    }
-  },
   "317": {
     "id": "317",
-    "name": "Knappe Heinrich",
+    "name": "Knappe Heinrich, der Treue",
     "Element": "magica",
     "type": "Charakter",
     "cost": 2,
     "face": {
       "front": {
-        "name": "Knappe Heinrich",
+        "name": "Knappe Heinrich, der Treue",
         "type": "Charakter",
         "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/317.jpg"
       }
     }
   },
-  "319": {
-    "id": "319",
-    "name": "Wächter von Irgendwas",
-    "Element": "magica",
-    "type": "Charakter",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Wächter von Irgendwas",
-        "type": "Charakter",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/319.jpg"
-      }
-    }
-  },
   "323": {
     "id": "323",
-    "name": "Aurelia, die Lichtverpflichtete",
+    "name": "Aurelia die Lichtverpflichtete",
     "Element": "magica",
     "type": "Charakter",
     "cost": 7,
     "face": {
       "front": {
-        "name": "Aurelia, die Lichtverpflichtete",
+        "name": "Aurelia die Lichtverpflichtete",
         "type": "Charakter",
         "cost": 7,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/323.jpg"
-      }
-    }
-  },
-  "327": {
-    "id": "327",
-    "name": "Drache des Südlichen Siegels",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 6,
-    "face": {
-      "front": {
-        "name": "Drache des Südlichen Siegels",
-        "type": "Charakter",
-        "cost": 6,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/327.jpg"
       }
     }
   },
@@ -841,13 +406,13 @@
   },
   "329": {
     "id": "329",
-    "name": "Vulkangolem",
+    "name": "Rasender Vulkangolem",
     "Element": "ignis",
     "type": "Charakter",
     "cost": 7,
     "face": {
       "front": {
-        "name": "Vulkangolem",
+        "name": "Rasender Vulkangolem",
         "type": "Charakter",
         "cost": 7,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/329.jpg"
@@ -856,31 +421,16 @@
   },
   "331": {
     "id": "331",
-    "name": "Atlas, der Wanderer",
+    "name": "Atlas der Wanderer",
     "Element": "terra",
     "type": "Charakter",
     "cost": 7,
     "face": {
       "front": {
-        "name": "Atlas, der Wanderer",
+        "name": "Atlas der Wanderer",
         "type": "Charakter",
         "cost": 7,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/331.jpg"
-      }
-    }
-  },
-  "337": {
-    "id": "337",
-    "name": "Konstrukt aus der Zwergenschmiede",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 6,
-    "face": {
-      "front": {
-        "name": "Konstrukt aus der Zwergenschmiede",
-        "type": "Charakter",
-        "cost": 6,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/337.jpg"
       }
     }
   },
@@ -929,21 +479,6 @@
       }
     }
   },
-  "345": {
-    "id": "345",
-    "name": "Magicatempel",
-    "Element": "magica",
-    "type": "Manifestation",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Magicatempel",
-        "type": "Manifestation",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/345.jpg"
-      }
-    }
-  },
   "350": {
     "id": "350",
     "name": "Jannik, rasender Rekrut",
@@ -961,13 +496,13 @@
   },
   "351": {
     "id": "351",
-    "name": "Adrean",
+    "name": "Adrean, talentierter Söldner",
     "Element": "ignis",
     "type": "Charakter",
     "cost": 5,
     "face": {
       "front": {
-        "name": "Adrean",
+        "name": "Adrean, talentierter Söldner",
         "type": "Charakter",
         "cost": 5,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/351.jpg"
@@ -976,31 +511,16 @@
   },
   "352": {
     "id": "352",
-    "name": "Soldat Gourmand  Prasser",
+    "name": "Gourmand Prasser, Soldat von Bjartur",
     "Element": "terra",
     "type": "Charakter",
     "cost": 2,
     "face": {
       "front": {
-        "name": "Soldat Gourmand  Prasser",
+        "name": "Gourmand Prasser, Soldat von Bjartur",
         "type": "Charakter",
         "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/352.jpg"
-      }
-    }
-  },
-  "353": {
-    "id": "353",
-    "name": "Wächterin von Irgendwo",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Wächterin von Irgendwo",
-        "type": "Charakter",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/353.jpg"
       }
     }
   },
@@ -1031,66 +551,6 @@
         "type": "Charakter",
         "cost": 1,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/356.jpg"
-      }
-    }
-  },
-  "358": {
-    "id": "358",
-    "name": "Egon Scarpa",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Egon Scarpa",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/358.jpg"
-      }
-    }
-  },
-  "359": {
-    "id": "359",
-    "name": "Johannes v.d. Schaufel, leichtsinniger Duellant",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Johannes v.d. Schaufel, leichtsinniger Duellant",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/359.jpg"
-      }
-    }
-  },
-  "363": {
-    "id": "363",
-    "name": "Duellforderung",
-    "Element": "ignis",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Duellforderung",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/363.jpg"
-      }
-    }
-  },
-  "364": {
-    "id": "364",
-    "name": "Flammenstrahl",
-    "Element": "ignis",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Flammenstrahl",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/364.jpg"
       }
     }
   },
@@ -1139,153 +599,33 @@
       }
     }
   },
-  "368": {
-    "id": "368",
-    "name": "Monolith des Schutzes",
-    "Element": "magica",
-    "type": "Manifestation",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Monolith des Schutzes",
-        "type": "Manifestation",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/368.jpg"
-      }
-    }
-  },
-  "370": {
-    "id": "370",
-    "name": "Wächter von Irgendwem",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Wächter von Irgendwem",
-        "type": "Charakter",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/370.jpg"
-      }
-    }
-  },
-  "371": {
-    "id": "371",
-    "name": "Rekrut aus Steinfurt",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 1,
-    "face": {
-      "front": {
-        "name": "Rekrut aus Steinfurt",
-        "type": "Charakter",
-        "cost": 1,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/371.jpg"
-      }
-    }
-  },
-  "372": {
-    "id": "372",
-    "name": "Laus",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Laus",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/372.jpg"
-      }
-    }
-  },
   "373": {
     "id": "373",
-    "name": "Sodalt Trumpfer, finsterer Deserteur",
+    "name": "Soldat Trumpfer, finsterer Deserteur",
     "Element": "terra",
     "type": "Charakter",
     "cost": 4,
     "face": {
       "front": {
-        "name": "Sodalt Trumpfer, finsterer Deserteur",
+        "name": "Soldat Trumpfer, finsterer Deserteur",
         "type": "Charakter",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/373.jpg"
       }
     }
   },
-  "374": {
-    "id": "374",
-    "name": "Wache des Trosses",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Wache des Trosses",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/374.jpg"
-      }
-    }
-  },
-  "376": {
-    "id": "376",
-    "name": "Elysia Feuerbach",
-    "Element": "magica",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Elysia Feuerbach",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/376.jpg"
-      }
-    }
-  },
   "378": {
     "id": "378",
-    "name": "Champion von Magica",
+    "name": "Chadra, Neshes'Re des Südlichen Siegels",
     "Element": "magica",
     "type": "Charakter",
     "cost": 4,
     "face": {
       "front": {
-        "name": "Champion von Magica",
+        "name": "Chadra, Neshes'Re des Südlichen Siegels",
         "type": "Charakter",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/378.jpg"
-      }
-    }
-  },
-  "380": {
-    "id": "380",
-    "name": "Leichtsinnige Schützin",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Leichtsinnige Schützin",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/380.jpg"
-      }
-    }
-  },
-  "381": {
-    "id": "381",
-    "name": "Schneller Säbel",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Schneller Säbel",
-        "type": "Charakter",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/381.jpg"
       }
     }
   },
@@ -1304,78 +644,18 @@
       }
     }
   },
-  "384": {
-    "id": "384",
-    "name": "Captain Maddox",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Captain Maddox",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/384.jpg"
-      }
-    }
-  },
-  "386": {
-    "id": "386",
-    "name": "Magier des Wasserwalls",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Magier des Wasserwalls",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/386.jpg"
-      }
-    }
-  },
-  "389": {
-    "id": "389",
-    "name": "Hüne",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Hüne",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/389.jpg"
-      }
-    }
-  },
   "390": {
     "id": "390",
-    "name": "Runa Dreyschuß",
+    "name": "Runa Dreyschuß, Herrin der Bresche",
     "Element": "ignis",
     "type": "Charakter",
     "cost": 3,
     "face": {
       "front": {
-        "name": "Runa Dreyschuß",
+        "name": "Runa Dreyschuß, Herrin der Bresche",
         "type": "Charakter",
         "cost": 3,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/390.jpg"
-      }
-    }
-  },
-  "391": {
-    "id": "391",
-    "name": "Windiger Jäger",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Windiger Jäger",
-        "type": "Charakter",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/391.jpg"
       }
     }
   },
@@ -1411,13 +691,13 @@
   },
   "394": {
     "id": "394",
-    "name": "Leon, ehrsamer Meuchelmörder",
+    "name": "Leon, lautloser Vollstrecker",
     "Element": "aqua",
     "type": "Charakter",
     "cost": 3,
     "face": {
       "front": {
-        "name": "Leon, ehrsamer Meuchelmörder",
+        "name": "Leon, lautloser Vollstrecker",
         "type": "Charakter",
         "cost": 3,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/394.jpg"
@@ -1439,45 +719,15 @@
       }
     }
   },
-  "400": {
-    "id": "400",
-    "name": "Salazar der Reisende",
-    "Element": "magica",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Salazar der Reisende",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/400.jpg"
-      }
-    }
-  },
-  "401": {
-    "id": "401",
-    "name": "Trügerischer See",
-    "Element": "aqua",
-    "type": "Manifestation",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Trügerischer See",
-        "type": "Manifestation",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/401.jpg"
-      }
-    }
-  },
   "402": {
     "id": "402",
-    "name": "Dahlia bint Ishaq al-Bahar, die Wissenssucherin",
+    "name": "Dahlia bint Ishaq al-Bahar, Wissenssucherin",
     "Element": "aqua",
     "type": "Charakter",
     "cost": 3,
     "face": {
       "front": {
-        "name": "Dahlia bint Ishaq al-Bahar, die Wissenssucherin",
+        "name": "Dahlia bint Ishaq al-Bahar, Wissenssucherin",
         "type": "Charakter",
         "cost": 3,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/402.jpg"
@@ -1531,13 +781,13 @@
   },
   "407": {
     "id": "407",
-    "name": "Annun Kamik, der Eismagier",
+    "name": "Annun Kamik, hütender Eismagier",
     "Element": "magica",
     "type": "Charakter",
     "cost": 5,
     "face": {
       "front": {
-        "name": "Annun Kamik, der Eismagier",
+        "name": "Annun Kamik, hütender Eismagier",
         "type": "Charakter",
         "cost": 5,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/407.jpg"
@@ -1574,21 +824,6 @@
       }
     }
   },
-  "454": {
-    "id": "454",
-    "name": "Celia, Priesterin des Sol",
-    "Element": "magica",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Celia, Priesterin des Sol",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/454.jpg"
-      }
-    }
-  },
   "456": {
     "id": "456",
     "name": "Artillerie-Bombardement",
@@ -1601,21 +836,6 @@
         "type": "Ereignis",
         "cost": 6,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/456.jpg"
-      }
-    }
-  },
-  "457": {
-    "id": "457",
-    "name": "Rasender Befehl",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Rasender Befehl",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/457.jpg"
       }
     }
   },
@@ -1664,81 +884,6 @@
       }
     }
   },
-  "464": {
-    "id": "464",
-    "name": "Pekars Segen",
-    "Element": "magica",
-    "type": "Manifestation",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Pekars Segen",
-        "type": "Manifestation",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/464.jpg"
-      }
-    }
-  },
-  "465": {
-    "id": "465",
-    "name": "Formation brechen",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Formation brechen",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/465.jpg"
-      }
-    }
-  },
-  "466": {
-    "id": "466",
-    "name": "Alvar, dem König sein Knecht",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Alvar, dem König sein Knecht",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/466.jpg"
-      }
-    }
-  },
-  "467": {
-    "id": "467",
-    "name": "Babette E.Y. MacMetth",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Babette E.Y. MacMetth",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/467.jpg"
-      }
-    }
-  },
-  "468": {
-    "id": "468",
-    "name": "Janthe O'Leary",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Janthe O'Leary",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/468.jpg"
-      }
-    }
-  },
   "469": {
     "id": "469",
     "name": "James Rian, Soldat von Bjartur",
@@ -1769,51 +914,6 @@
       }
     }
   },
-  "471": {
-    "id": "471",
-    "name": "Eurestes, Archon des Südlichen Siegels",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 7,
-    "face": {
-      "front": {
-        "name": "Eurestes, Archon des Südlichen Siegels",
-        "type": "Charakter",
-        "cost": 7,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/471.jpg"
-      }
-    }
-  },
-  "472": {
-    "id": "472",
-    "name": "Carmille, Beamtin der Hofkanzlei",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Carmille, Beamtin der Hofkanzlei",
-        "type": "Charakter",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/472.jpg"
-      }
-    }
-  },
-  "473": {
-    "id": "473",
-    "name": "Laytja, Heilerin der Lüfte",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Laytja, Heilerin der Lüfte",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/473.jpg"
-      }
-    }
-  },
   "475": {
     "id": "475",
     "name": "Sirka Sorlissos, Hüterin der Wälder",
@@ -1829,48 +929,18 @@
       }
     }
   },
-  "476": {
-    "id": "476",
-    "name": "Nene, aufstrebende Novizin",
-    "Element": "magica",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Nene, aufstrebende Novizin",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/476.jpg"
-      }
-    }
-  },
   "477": {
     "id": "477",
-    "name": "Kardes, der Feldkoch",
+    "name": "Kardes, unser Feldkoch",
     "Element": "terra",
     "type": "Charakter",
     "cost": 4,
     "face": {
       "front": {
-        "name": "Kardes, der Feldkoch",
+        "name": "Kardes, unser Feldkoch",
         "type": "Charakter",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/477.jpg"
-      }
-    }
-  },
-  "478": {
-    "id": "478",
-    "name": "[Alt] Tekkadahn",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "[Alt] Tekkadahn",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/478.jpg"
       }
     }
   },
@@ -1886,36 +956,6 @@
         "type": "Charakter",
         "cost": 5,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/479.jpg"
-      }
-    }
-  },
-  "480": {
-    "id": "480",
-    "name": "Aselhelm, Knapporal der Schwarzen Lilie",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Aselhelm, Knapporal der Schwarzen Lilie",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/480.jpg"
-      }
-    }
-  },
-  "481": {
-    "id": "481",
-    "name": "Ecthelias, der Waldläufer",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Ecthelias, der Waldläufer",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/481.jpg"
       }
     }
   },
@@ -1961,21 +1001,6 @@
         "type": "Charakter",
         "cost": 5,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/484.jpg"
-      }
-    }
-  },
-  "485": {
-    "id": "485",
-    "name": "Cherin, Aeris-Priesterin",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Cherin, Aeris-Priesterin",
-        "type": "Charakter",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/485.jpg"
       }
     }
   },
@@ -2054,45 +1079,15 @@
       }
     }
   },
-  "491": {
-    "id": "491",
-    "name": "Sheewa, Kommandantin der Boten Terras",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Sheewa, Kommandantin der Boten Terras",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/491.jpg"
-      }
-    }
-  },
-  "492": {
-    "id": "492",
-    "name": "Liam Lustenberg, Künstler",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Liam Lustenberg, Künstler",
-        "type": "Charakter",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/492.jpg"
-      }
-    }
-  },
   "493": {
     "id": "493",
-    "name": "Phillipp Altdorf, Meldeläufer des Thul'Heens",
+    "name": "Phillipp Altdorf, Meldeläufer des Thul’Heens",
     "Element": "terra",
     "type": "Charakter",
     "cost": 4,
     "face": {
       "front": {
-        "name": "Phillipp Altdorf, Meldeläufer des Thul'Heens",
+        "name": "Phillipp Altdorf, Meldeläufer des Thul’Heens",
         "type": "Charakter",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/493.jpg"
@@ -2101,91 +1096,16 @@
   },
   "494": {
     "id": "494",
-    "name": "“Keilformation bilden!”",
+    "name": "„Keilformation bilden!“",
     "Element": "terra",
     "type": "Ereignis",
     "cost": 3,
     "face": {
       "front": {
-        "name": "“Keilformation bilden!”",
+        "name": "„Keilformation bilden!“",
         "type": "Ereignis",
         "cost": 3,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/494.jpg"
-      }
-    }
-  },
-  "496": {
-    "id": "496",
-    "name": "Kenrik, Söldner der Morgenröte",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Kenrik, Söldner der Morgenröte",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/496.jpg"
-      }
-    }
-  },
-  "497": {
-    "id": "497",
-    "name": "Henrik, Kurator verborgener Kostbarkeiten",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Henrik, Kurator verborgener Kostbarkeiten",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/497.jpg"
-      }
-    }
-  },
-  "498": {
-    "id": "498",
-    "name": "Jasper, Wellentänzer der Saphirküste",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Jasper, Wellentänzer der Saphirküste",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/498.jpg"
-      }
-    }
-  },
-  "499": {
-    "id": "499",
-    "name": "Martin Kräuterer, Alchemist Terras",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Martin Kräuterer, Alchemist Terras",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/499.jpg"
-      }
-    }
-  },
-  "503": {
-    "id": "503",
-    "name": "Rekrut Diego, Bannerträger der Wolfswacht",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Rekrut Diego, Bannerträger der Wolfswacht",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/503.jpg"
       }
     }
   },
@@ -2219,21 +1139,6 @@
       }
     }
   },
-  "508": {
-    "id": "508",
-    "name": "Verwitterter Altar",
-    "Element": "terra",
-    "type": "Manifestation",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Verwitterter Altar",
-        "type": "Manifestation",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/508.jpg"
-      }
-    }
-  },
   "509": {
     "id": "509",
     "name": "Eiserne Mauer",
@@ -2249,48 +1154,18 @@
       }
     }
   },
-  "510": {
-    "id": "510",
-    "name": "Magiefluss durchbrechen",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Magiefluss durchbrechen",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/510.jpg"
-      }
-    }
-  },
   "512": {
     "id": "512",
-    "name": "Phrantz Gassenhauer",
+    "name": "Phrantz Gassenhauer, Gardist von Gloria",
     "Element": "aeris",
     "type": "Charakter",
     "cost": 1,
     "face": {
       "front": {
-        "name": "Phrantz Gassenhauer",
+        "name": "Phrantz Gassenhauer, Gardist von Gloria",
         "type": "Charakter",
         "cost": 1,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/512.jpg"
-      }
-    }
-  },
-  "513": {
-    "id": "513",
-    "name": "Hinterhältiger Goblin",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Hinterhältiger Goblin",
-        "type": "Charakter",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/513.jpg"
       }
     }
   },
@@ -2306,36 +1181,6 @@
         "type": "Charakter",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/514.jpg"
-      }
-    }
-  },
-  "515": {
-    "id": "515",
-    "name": "Geisterkardinal",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Geisterkardinal",
-        "type": "Charakter",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/515.jpg"
-      }
-    }
-  },
-  "516": {
-    "id": "516",
-    "name": "Magier des Nordens",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Magier des Nordens",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/516.jpg"
       }
     }
   },
@@ -2369,75 +1214,30 @@
       }
     }
   },
-  "519": {
-    "id": "519",
-    "name": "Labor des Giftmischers",
-    "Element": "aqua",
-    "type": "Manifestation",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Labor des Giftmischers",
-        "type": "Manifestation",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/519.jpg"
-      }
-    }
-  },
   "520": {
     "id": "520",
-    "name": "Elias Greer",
+    "name": "Elias Greer, cendarischer Bote",
     "Element": "aeris",
     "type": "Charakter",
     "cost": 2,
     "face": {
       "front": {
-        "name": "Elias Greer",
+        "name": "Elias Greer, cendarischer Bote",
         "type": "Charakter",
         "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/520.jpg"
       }
     }
   },
-  "521": {
-    "id": "521",
-    "name": "Ritter der Sturmlande",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Ritter der Sturmlande",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/521.jpg"
-      }
-    }
-  },
-  "522": {
-    "id": "522",
-    "name": "Ser Trystan Eisenfaust",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Ser Trystan Eisenfaust",
-        "type": "Charakter",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/522.jpg"
-      }
-    }
-  },
   "523": {
     "id": "523",
-    "name": "Thea Eisenfeder",
+    "name": "Thea Eisenfeder, Exorzistin der Gunnarswacht",
     "Element": "aeris",
     "type": "Charakter",
     "cost": 4,
     "face": {
       "front": {
-        "name": "Thea Eisenfeder",
+        "name": "Thea Eisenfeder, Exorzistin der Gunnarswacht",
         "type": "Charakter",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/523.jpg"
@@ -2461,151 +1261,16 @@
   },
   "525": {
     "id": "525",
-    "name": "Gwendolin Eisenfeder",
+    "name": "Gwen Eisenfeder, Gardistin der Gunnarswacht",
     "Element": "aeris",
     "type": "Charakter",
     "cost": 4,
     "face": {
       "front": {
-        "name": "Gwendolin Eisenfeder",
+        "name": "Gwen Eisenfeder, Gardistin der Gunnarswacht",
         "type": "Charakter",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/525.jpg"
-      }
-    }
-  },
-  "526": {
-    "id": "526",
-    "name": "Blitzangriff",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Blitzangriff",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/526.jpg"
-      }
-    }
-  },
-  "527": {
-    "id": "527",
-    "name": "Blutklinge",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Blutklinge",
-        "type": "Charakter",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/527.jpg"
-      }
-    }
-  },
-  "528": {
-    "id": "528",
-    "name": "Gillian von Schrattenflueh",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Gillian von Schrattenflueh",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/528.jpg"
-      }
-    }
-  },
-  "529": {
-    "id": "529",
-    "name": "Zyklop",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Zyklop",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/529.jpg"
-      }
-    }
-  },
-  "530": {
-    "id": "530",
-    "name": "Reinhard vom Greifenberg, Söldner der Morgenröte",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Reinhard vom Greifenberg, Söldner der Morgenröte",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/530.jpg"
-      }
-    }
-  },
-  "531": {
-    "id": "531",
-    "name": "Kurzer Bianco Rausch",
-    "Element": "ignis",
-    "type": "Ereignis",
-    "cost": 1,
-    "face": {
-      "front": {
-        "name": "Kurzer Bianco Rausch",
-        "type": "Ereignis",
-        "cost": 1,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/531.jpg"
-      }
-    }
-  },
-  "532": {
-    "id": "532",
-    "name": "Novizin des Ausgleichs",
-    "Element": "magica",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Novizin des Ausgleichs",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/532.jpg"
-      }
-    }
-  },
-  "533": {
-    "id": "533",
-    "name": "Retzak, von den Kor'kalai",
-    "Element": "magica",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Retzak, von den Kor'kalai",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/533.jpg"
-      }
-    }
-  },
-  "534": {
-    "id": "534",
-    "name": "Hüter der Heiligtümer",
-    "Element": "magica",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Hüter der Heiligtümer",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/534.jpg"
       }
     }
   },
@@ -2621,51 +1286,6 @@
         "type": "Ereignis",
         "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/535.jpg"
-      }
-    }
-  },
-  "536": {
-    "id": "536",
-    "name": "Magische Übereinkunft",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Magische Übereinkunft",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/536.jpg"
-      }
-    }
-  },
-  "537": {
-    "id": "537",
-    "name": "Stichelnde Beleidigung",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Stichelnde Beleidigung",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/537.jpg"
-      }
-    }
-  },
-  "538": {
-    "id": "538",
-    "name": "Arkane Segnung",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Arkane Segnung",
-        "type": "Ereignis",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/538.jpg"
       }
     }
   },
@@ -2699,51 +1319,6 @@
       }
     }
   },
-  "541": {
-    "id": "541",
-    "name": "TC14",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "TC14",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/541.jpg"
-      }
-    }
-  },
-  "543": {
-    "id": "543",
-    "name": "Schwächung der Resonanz",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Schwächung der Resonanz",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/543.jpg"
-      }
-    }
-  },
-  "544": {
-    "id": "544",
-    "name": "Fesseln",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Fesseln",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/544.jpg"
-      }
-    }
-  },
   "545": {
     "id": "545",
     "name": "Feuerpfeile",
@@ -2774,105 +1349,15 @@
       }
     }
   },
-  "547": {
-    "id": "547",
-    "name": "Transmutation",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Transmutation",
-        "type": "Ereignis",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/547.jpg"
-      }
-    }
-  },
-  "548": {
-    "id": "548",
-    "name": "Verwunschene Dryade",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 6,
-    "face": {
-      "front": {
-        "name": "Verwunschene Dryade",
-        "type": "Charakter",
-        "cost": 6,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/548.jpg"
-      }
-    }
-  },
-  "549": {
-    "id": "549",
-    "name": "Schwere Erschöpfung",
-    "Element": "terra",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Schwere Erschöpfung",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/549.jpg"
-      }
-    }
-  },
-  "551": {
-    "id": "551",
-    "name": "Bromus",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 6,
-    "face": {
-      "front": {
-        "name": "Bromus",
-        "type": "Charakter",
-        "cost": 6,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/551.jpg"
-      }
-    }
-  },
-  "552": {
-    "id": "552",
-    "name": "Miriam",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Miriam",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/552.jpg"
-      }
-    }
-  },
-  "553": {
-    "id": "553",
-    "name": "Rodrick",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Rodrick",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/553.jpg"
-      }
-    }
-  },
   "554": {
     "id": "554",
-    "name": "Sir Roven Silverblade",
+    "name": "Sir Roven Silverblade, Fechtmeister",
     "Element": "terra",
     "type": "Charakter",
     "cost": 5,
     "face": {
       "front": {
-        "name": "Sir Roven Silverblade",
+        "name": "Sir Roven Silverblade, Fechtmeister",
         "type": "Charakter",
         "cost": 5,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/554.jpg"
@@ -2881,46 +1366,16 @@
   },
   "555": {
     "id": "555",
-    "name": "Basilisk",
+    "name": "Grubenbasilisk",
     "Element": "terra",
     "type": "Charakter",
     "cost": 7,
     "face": {
       "front": {
-        "name": "Basilisk",
+        "name": "Grubenbasilisk",
         "type": "Charakter",
         "cost": 7,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/555.jpg"
-      }
-    }
-  },
-  "556": {
-    "id": "556",
-    "name": "Wir stehen zusammen!",
-    "Element": "terra",
-    "type": "Ereignis",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Wir stehen zusammen!",
-        "type": "Ereignis",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/556.jpg"
-      }
-    }
-  },
-  "557": {
-    "id": "557",
-    "name": "Mühlstein",
-    "Element": "terra",
-    "type": "Manifestation",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Mühlstein",
-        "type": "Manifestation",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/557.jpg"
       }
     }
   },
@@ -2954,21 +1409,6 @@
       }
     }
   },
-  "560": {
-    "id": "560",
-    "name": "Kompass",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Kompass",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/560.jpg"
-      }
-    }
-  },
   "561": {
     "id": "561",
     "name": "Wächter von Irgendwann",
@@ -2981,126 +1421,6 @@
         "type": "Charakter",
         "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/561.jpg"
-      }
-    }
-  },
-  "562": {
-    "id": "562",
-    "name": "Willow aus Gloria",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Willow aus Gloria",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/562.jpg"
-      }
-    }
-  },
-  "563": {
-    "id": "563",
-    "name": "Henning aus Gloria",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Henning aus Gloria",
-        "type": "Charakter",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/563.jpg"
-      }
-    }
-  },
-  "564": {
-    "id": "564",
-    "name": "EU08",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "EU08",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/564.jpg"
-      }
-    }
-  },
-  "565": {
-    "id": "565",
-    "name": "EU10",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "EU10",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/565.jpg"
-      }
-    }
-  },
-  "566": {
-    "id": "566",
-    "name": "Rettung der Weißen Wölfin",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Rettung der Weißen Wölfin",
-        "type": "Ereignis",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/566.jpg"
-      }
-    }
-  },
-  "567": {
-    "id": "567",
-    "name": "Wetterumschwung",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Wetterumschwung",
-        "type": "Ereignis",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/567.jpg"
-      }
-    }
-  },
-  "568": {
-    "id": "568",
-    "name": "Flinkes Manöver",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 1,
-    "face": {
-      "front": {
-        "name": "Flinkes Manöver",
-        "type": "Ereignis",
-        "cost": 1,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/568.jpg"
-      }
-    }
-  },
-  "569": {
-    "id": "569",
-    "name": "Überwältigende Ereignisse",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Überwältigende Ereignisse",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/569.jpg"
       }
     }
   },
@@ -3119,66 +1439,6 @@
       }
     }
   },
-  "571": {
-    "id": "571",
-    "name": "Spontane Erosion",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Spontane Erosion",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/571.jpg"
-      }
-    }
-  },
-  "572": {
-    "id": "572",
-    "name": "Aerisportal",
-    "Element": "aeris",
-    "type": "Manifestation",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Aerisportal",
-        "type": "Manifestation",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/572.jpg"
-      }
-    }
-  },
-  "573": {
-    "id": "573",
-    "name": "Tribunal des Sturmwinds",
-    "Element": "aeris",
-    "type": "Manifestation",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Tribunal des Sturmwinds",
-        "type": "Manifestation",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/573.jpg"
-      }
-    }
-  },
-  "574": {
-    "id": "574",
-    "name": "Celine, Tochter der Leviathane",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Celine, Tochter der Leviathane",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/574.jpg"
-      }
-    }
-  },
   "580": {
     "id": "580",
     "name": "Vialaychanne, gutmütige Magierin",
@@ -3191,81 +1451,6 @@
         "type": "Charakter",
         "cost": 4,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/580.jpg"
-      }
-    }
-  },
-  "581": {
-    "id": "581",
-    "name": "Rückruf der Essenz",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Rückruf der Essenz",
-        "type": "Ereignis",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/581.jpg"
-      }
-    }
-  },
-  "582": {
-    "id": "582",
-    "name": "Weltenwechsel",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Weltenwechsel",
-        "type": "Ereignis",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/582.jpg"
-      }
-    }
-  },
-  "583": {
-    "id": "583",
-    "name": "Experimentelle Glyphen",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Experimentelle Glyphen",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/583.jpg"
-      }
-    }
-  },
-  "584": {
-    "id": "584",
-    "name": "Spiegelbild",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Spiegelbild",
-        "type": "Ereignis",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/584.jpg"
-      }
-    }
-  },
-  "585": {
-    "id": "585",
-    "name": "Konflux",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 1,
-    "face": {
-      "front": {
-        "name": "Konflux",
-        "type": "Ereignis",
-        "cost": 1,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/585.jpg"
       }
     }
   },
@@ -3284,453 +1469,48 @@
       }
     }
   },
-  "587": {
-    "id": "587",
-    "name": "Zwillingszauber",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Zwillingszauber",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/587.jpg"
-      }
-    }
-  },
-  "588": {
-    "id": "588",
-    "name": "Gemeinsame Weihe",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Gemeinsame Weihe",
-        "type": "Ereignis",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/588.jpg"
-      }
-    }
-  },
-  "589": {
-    "id": "589",
-    "name": "MU15",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "MU15",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/589.jpg"
-      }
-    }
-  },
   "590": {
     "id": "590",
-    "name": "Amara",
+    "name": "Amara, Bewahrerin des Waldes",
     "Element": "magica",
     "type": "Charakter",
     "cost": 3,
     "face": {
       "front": {
-        "name": "Amara",
+        "name": "Amara, Bewahrerin des Waldes",
         "type": "Charakter",
         "cost": 3,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/590.jpg"
       }
     }
   },
-  "592": {
-    "id": "592",
-    "name": "Dr. Viktoire Ladon Crick",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Dr. Viktoire Ladon Crick",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/592.jpg"
-      }
-    }
-  },
-  "594": {
-    "id": "594",
-    "name": "Eron Breitenstein, Seneschall",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Eron Breitenstein, Seneschall",
-        "type": "Charakter",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/594.jpg"
-      }
-    }
-  },
-  "595": {
-    "id": "595",
-    "name": "Horizon Yvane Tilly",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Horizon Yvane Tilly",
-        "type": "Charakter",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/595.jpg"
-      }
-    }
-  },
-  "596": {
-    "id": "596",
-    "name": "Bootsmann Holger, der Dreimaster",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Bootsmann Holger, der Dreimaster",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/596.jpg"
-      }
-    }
-  },
-  "597": {
-    "id": "597",
-    "name": "Walays von Rabenschrey, Thul'Heen des Westens",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 7,
-    "face": {
-      "front": {
-        "name": "Walays von Rabenschrey, Thul'Heen des Westens",
-        "type": "Charakter",
-        "cost": 7,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/597.jpg"
-      }
-    }
-  },
   "598": {
     "id": "598",
-    "name": "Angus Mc Reed, Hochland-Kundschafter",
+    "name": "Angus McReed, Hochland-Kundschafter",
     "Element": "aqua",
     "type": "Charakter",
     "cost": 2,
     "face": {
       "front": {
-        "name": "Angus Mc Reed, Hochland-Kundschafter",
+        "name": "Angus McReed, Hochland-Kundschafter",
         "type": "Charakter",
         "cost": 2,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/598.jpg"
       }
     }
   },
-  "599": {
-    "id": "599",
-    "name": "Fianna",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Fianna",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/599.jpg"
-      }
-    }
-  },
-  "600": {
-    "id": "600",
-    "name": "Elementarkraken, Schrecken der Tiefsee",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 6,
-    "face": {
-      "front": {
-        "name": "Elementarkraken, Schrecken der Tiefsee",
-        "type": "Charakter",
-        "cost": 6,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/600.jpg"
-      }
-    }
-  },
-  "601": {
-    "id": "601",
-    "name": "Taktisches Kalkül",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Taktisches Kalkül",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/601.jpg"
-      }
-    }
-  },
-  "602": {
-    "id": "602",
-    "name": "Flüchtige Reflexion",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Flüchtige Reflexion",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/602.jpg"
-      }
-    }
-  },
-  "603": {
-    "id": "603",
-    "name": "Seitenwechsel",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Seitenwechsel",
-        "type": "Ereignis",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/603.jpg"
-      }
-    }
-  },
-  "604": {
-    "id": "604",
-    "name": "Heilende Tränen",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Heilende Tränen",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/604.jpg"
-      }
-    }
-  },
-  "605": {
-    "id": "605",
-    "name": "Dichter Nebel",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Dichter Nebel",
-        "type": "Ereignis",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/605.jpg"
-      }
-    }
-  },
-  "606": {
-    "id": "606",
-    "name": "Toxische Klingen",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 6,
-    "face": {
-      "front": {
-        "name": "Toxische Klingen",
-        "type": "Ereignis",
-        "cost": 6,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/606.jpg"
-      }
-    }
-  },
-  "607": {
-    "id": "607",
-    "name": "Großer Aquaschrein",
-    "Element": "aqua",
-    "type": "Manifestation",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Großer Aquaschrein",
-        "type": "Manifestation",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/607.jpg"
-      }
-    }
-  },
-  "608": {
-    "id": "608",
-    "name": "Orakel der Zeitalter",
-    "Element": "aqua",
-    "type": "Manifestation",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Orakel der Zeitalter",
-        "type": "Manifestation",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/608.jpg"
-      }
-    }
-  },
-  "610": {
-    "id": "610",
-    "name": "Leaf, Waffenmeister des Südens",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Leaf, Waffenmeister des Südens",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/610.jpg"
-      }
-    }
-  },
-  "612": {
-    "id": "612",
-    "name": "Fant",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Fant",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/612.jpg"
-      }
-    }
-  },
   "613": {
     "id": "613",
-    "name": "Awisandum",
+    "name": "Awisandum, wissender Feuermagier",
     "Element": "ignis",
     "type": "Charakter",
     "cost": 5,
     "face": {
       "front": {
-        "name": "Awisandum",
+        "name": "Awisandum, wissender Feuermagier",
         "type": "Charakter",
         "cost": 5,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/613.jpg"
-      }
-    }
-  },
-  "614": {
-    "id": "614",
-    "name": "Hermann Richter",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Hermann Richter",
-        "type": "Charakter",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/614.jpg"
-      }
-    }
-  },
-  "615": {
-    "id": "615",
-    "name": "Gemeinsame Vergeltung",
-    "Element": "ignis",
-    "type": "Ereignis",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Gemeinsame Vergeltung",
-        "type": "Ereignis",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/615.jpg"
-      }
-    }
-  },
-  "616": {
-    "id": "616",
-    "name": "Soldzahlung",
-    "Element": "ignis",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Soldzahlung",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/616.jpg"
-      }
-    }
-  },
-  "617": {
-    "id": "617",
-    "name": "Ritterschlag",
-    "Element": "ignis",
-    "type": "Ereignis",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Ritterschlag",
-        "type": "Ereignis",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/617.jpg"
-      }
-    }
-  },
-  "618": {
-    "id": "618",
-    "name": "Revolution",
-    "Element": "ignis",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Revolution",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/618.jpg"
-      }
-    }
-  },
-  "619": {
-    "id": "619",
-    "name": "Taverne “Hungriger Fant”",
-    "Element": "ignis",
-    "type": "Manifestation",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Taverne “Hungriger Fant”",
-        "type": "Manifestation",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/619.jpg"
-      }
-    }
-  },
-  "620": {
-    "id": "620",
-    "name": "Würfeltisch",
-    "Element": "ignis",
-    "type": "Manifestation",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Würfeltisch",
-        "type": "Manifestation",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/620.jpg"
       }
     }
   },
@@ -3746,276 +1526,6 @@
         "type": "Charakter",
         "cost": 3,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/621.jpg"
-      }
-    }
-  },
-  "622": {
-    "id": "622",
-    "name": "Zah-cheno, der Flügelmann",
-    "Element": "magica",
-    "type": "Charakter",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Zah-cheno, der Flügelmann",
-        "type": "Charakter",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/622.jpg"
-      }
-    }
-  },
-  "623": {
-    "id": "623",
-    "name": "17",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "17",
-        "type": "Charakter",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/623.jpg"
-      }
-    }
-  },
-  "624": {
-    "id": "624",
-    "name": "Theo Kohlfeld, schiesswütiger Landsknecht",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Theo Kohlfeld, schiesswütiger Landsknecht",
-        "type": "Charakter",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/624.jpg"
-      }
-    }
-  },
-  "625": {
-    "id": "625",
-    "name": "Celebringor",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Celebringor",
-        "type": "Charakter",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/625.jpg"
-      }
-    }
-  },
-  "626": {
-    "id": "626",
-    "name": "Pius Paul Pixner",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 7,
-    "face": {
-      "front": {
-        "name": "Pius Paul Pixner",
-        "type": "Charakter",
-        "cost": 7,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/626.jpg"
-      }
-    }
-  },
-  "627": {
-    "id": "627",
-    "name": "Pater Bertram",
-    "Element": "ignis",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Pater Bertram",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/627.jpg"
-      }
-    }
-  },
-  "628": {
-    "id": "628",
-    "name": "Jakob Conrad Cuculus, skrupelloser Bankier",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Jakob Conrad Cuculus, skrupelloser Bankier",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/628.jpg"
-      }
-    }
-  },
-  "629": {
-    "id": "629",
-    "name": "Herr Strauss, Fantenjäger",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Herr Strauss, Fantenjäger",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/629.jpg"
-      }
-    }
-  },
-  "630": {
-    "id": "630",
-    "name": "Teichherr Rodan, Der Froschkönig",
-    "Element": "aqua",
-    "type": "Charakter",
-    "cost": 6,
-    "face": {
-      "front": {
-        "name": "Teichherr Rodan, Der Froschkönig",
-        "type": "Charakter",
-        "cost": 6,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/630.jpg"
-      }
-    }
-  },
-  "631": {
-    "id": "631",
-    "name": "MR01",
-    "Element": "magica",
-    "type": "Charakter",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "MR01",
-        "type": "Charakter",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/631.jpg"
-      }
-    }
-  },
-  "632": {
-    "id": "632",
-    "name": "Der Lichtbringer, Astralgestalt",
-    "Element": "magica",
-    "type": "Charakter",
-    "cost": 6,
-    "face": {
-      "front": {
-        "name": "Der Lichtbringer, Astralgestalt",
-        "type": "Charakter",
-        "cost": 6,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/632.jpg"
-      }
-    }
-  },
-  "633": {
-    "id": "633",
-    "name": "Bruder Jeremias, Inquisitor",
-    "Element": "magica",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Bruder Jeremias, Inquisitor",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/633.jpg"
-      }
-    }
-  },
-  "634": {
-    "id": "634",
-    "name": "Ylva, Seelenwächterin",
-    "Element": "magica",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Ylva, Seelenwächterin",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/634.jpg"
-      }
-    }
-  },
-  "635": {
-    "id": "635",
-    "name": "Fenija, die Listige",
-    "Element": "magica",
-    "type": "Charakter",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Fenija, die Listige",
-        "type": "Charakter",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/635.jpg"
-      }
-    }
-  },
-  "636": {
-    "id": "636",
-    "name": "Azrael, Erzdämon",
-    "Element": "magica",
-    "type": "Charakter",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Azrael, Erzdämon",
-        "type": "Charakter",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/636.jpg"
-      }
-    }
-  },
-  "637": {
-    "id": "637",
-    "name": "Lila Hirthe, naive Wirtstochter",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Lila Hirthe, naive Wirtstochter",
-        "type": "Charakter",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/637.jpg"
-      }
-    }
-  },
-  "638": {
-    "id": "638",
-    "name": "Owen Schattenweber, zwielichtiger Geschichtenerzähler",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Owen Schattenweber, zwielichtiger Geschichtenerzähler",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/638.jpg"
-      }
-    }
-  },
-  "639": {
-    "id": "639",
-    "name": "ER07",
-    "Element": "aeris",
-    "type": "Charakter",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "ER07",
-        "type": "Charakter",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/639.jpg"
       }
     }
   },
@@ -4036,121 +1546,16 @@
   },
   "641": {
     "id": "641",
-    "name": "Sir Lothar von Albstein",
+    "name": "Sir Lothar von Albstein, Hammer von Sankt Georg",
     "Element": "aeris",
     "type": "Charakter",
     "cost": 7,
     "face": {
       "front": {
-        "name": "Sir Lothar von Albstein",
+        "name": "Sir Lothar von Albstein, Hammer von Sankt Georg",
         "type": "Charakter",
         "cost": 7,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/641.jpg"
-      }
-    }
-  },
-  "643": {
-    "id": "643",
-    "name": "TR03",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "TR03",
-        "type": "Charakter",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/643.jpg"
-      }
-    }
-  },
-  "644": {
-    "id": "644",
-    "name": "Leo",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Leo",
-        "type": "Charakter",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/644.jpg"
-      }
-    }
-  },
-  "645": {
-    "id": "645",
-    "name": "Taynara Lyanne Idtris",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Taynara Lyanne Idtris",
-        "type": "Charakter",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/645.jpg"
-      }
-    }
-  },
-  "646": {
-    "id": "646",
-    "name": "TR09",
-    "Element": "terra",
-    "type": "Charakter",
-    "cost": 7,
-    "face": {
-      "front": {
-        "name": "TR09",
-        "type": "Charakter",
-        "cost": 7,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/646.jpg"
-      }
-    }
-  },
-  "647": {
-    "id": "647",
-    "name": "Garten der ersten Erde",
-    "Element": "terra",
-    "type": "Manifestation",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Garten der ersten Erde",
-        "type": "Manifestation",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/647.jpg"
-      }
-    }
-  },
-  "648": {
-    "id": "648",
-    "name": "Verbrannte Erde",
-    "Element": "ignis",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Verbrannte Erde",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/648.jpg"
-      }
-    }
-  },
-  "649": {
-    "id": "649",
-    "name": "Eisstarre",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Eisstarre",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/649.jpg"
       }
     }
   },
@@ -4169,96 +1574,6 @@
       }
     }
   },
-  "651": {
-    "id": "651",
-    "name": "Windstoß",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 1,
-    "face": {
-      "front": {
-        "name": "Windstoß",
-        "type": "Ereignis",
-        "cost": 1,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/651.jpg"
-      }
-    }
-  },
-  "652": {
-    "id": "652",
-    "name": "Erfolgreiche Jagt",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Erfolgreiche Jagt",
-        "type": "Ereignis",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/652.jpg"
-      }
-    }
-  },
-  "653": {
-    "id": "653",
-    "name": "Zeitversatz",
-    "Element": "aeris",
-    "type": "Ereignis",
-    "cost": 6,
-    "face": {
-      "front": {
-        "name": "Zeitversatz",
-        "type": "Ereignis",
-        "cost": 6,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/653.jpg"
-      }
-    }
-  },
-  "654": {
-    "id": "654",
-    "name": "Stachelgrube",
-    "Element": "aeris",
-    "type": "Manifestation",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Stachelgrube",
-        "type": "Manifestation",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/654.jpg"
-      }
-    }
-  },
-  "655": {
-    "id": "655",
-    "name": "Atemnot",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 2,
-    "face": {
-      "front": {
-        "name": "Atemnot",
-        "type": "Ereignis",
-        "cost": 2,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/655.jpg"
-      }
-    }
-  },
-  "656": {
-    "id": "656",
-    "name": "MR09",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "MR09",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/656.jpg"
-      }
-    }
-  },
   "657": {
     "id": "657",
     "name": "Kraftentzug",
@@ -4274,318 +1589,18 @@
       }
     }
   },
-  "658": {
-    "id": "658",
-    "name": "Wilder Zauber",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Wilder Zauber",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/658.jpg"
-      }
-    }
-  },
-  "659": {
-    "id": "659",
-    "name": "MR14",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "MR14",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/659.jpg"
-      }
-    }
-  },
-  "660": {
-    "id": "660",
-    "name": "Geschenk des Schicksals",
-    "Element": "magica",
-    "type": "Ereignis",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Geschenk des Schicksals",
-        "type": "Ereignis",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/660.jpg"
-      }
-    }
-  },
-  "661": {
-    "id": "661",
-    "name": "Leylinie",
-    "Element": "magica",
-    "type": "Manifestation",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Leylinie",
-        "type": "Manifestation",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/661.jpg"
-      }
-    }
-  },
   "662": {
     "id": "662",
-    "name": "Sonnensphinx",
+    "name": "Sonnenmonolith",
     "Element": "magica",
     "type": "Manifestation",
     "cost": 3,
     "face": {
       "front": {
-        "name": "Sonnensphinx",
+        "name": "Sonnenmonolith",
         "type": "Manifestation",
         "cost": 3,
         "image": "https://itschotsch.github.io/anor/export/dev/jpg/662.jpg"
-      }
-    }
-  },
-  "663": {
-    "id": "663",
-    "name": "Wasserschild",
-    "Element": "aqua",
-    "type": "Manifestation",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Wasserschild",
-        "type": "Manifestation",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/663.jpg"
-      }
-    }
-  },
-  "664": {
-    "id": "664",
-    "name": "Gefälschte Besitzurkunde",
-    "Element": "aqua",
-    "type": "Manifestation",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Gefälschte Besitzurkunde",
-        "type": "Manifestation",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/664.jpg"
-      }
-    }
-  },
-  "665": {
-    "id": "665",
-    "name": "Heldenhafte Rückkehr",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Heldenhafte Rückkehr",
-        "type": "Ereignis",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/665.jpg"
-      }
-    }
-  },
-  "666": {
-    "id": "666",
-    "name": "Quelle des Vergessens",
-    "Element": "aqua",
-    "type": "Manifestation",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Quelle des Vergessens",
-        "type": "Manifestation",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/666.jpg"
-      }
-    }
-  },
-  "667": {
-    "id": "667",
-    "name": "Druckpunkte",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Druckpunkte",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/667.jpg"
-      }
-    }
-  },
-  "668": {
-    "id": "668",
-    "name": "Propaganda",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Propaganda",
-        "type": "Ereignis",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/668.jpg"
-      }
-    }
-  },
-  "669": {
-    "id": "669",
-    "name": "Dolch aus Tränen",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Dolch aus Tränen",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/669.jpg"
-      }
-    }
-  },
-  "670": {
-    "id": "670",
-    "name": "Rückenwelle",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Rückenwelle",
-        "type": "Ereignis",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/670.jpg"
-      }
-    }
-  },
-  "671": {
-    "id": "671",
-    "name": "Stilles Wasser",
-    "Element": "aqua",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Stilles Wasser",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/671.jpg"
-      }
-    }
-  },
-  "672": {
-    "id": "672",
-    "name": "Züngelnde Flammen",
-    "Element": "ignis",
-    "type": "Manifestation",
-    "cost": 1,
-    "face": {
-      "front": {
-        "name": "Züngelnde Flammen",
-        "type": "Manifestation",
-        "cost": 1,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/672.jpg"
-      }
-    }
-  },
-  "673": {
-    "id": "673",
-    "name": "Schwarzer Haufen",
-    "Element": "ignis",
-    "type": "Ereignis",
-    "cost": 3,
-    "face": {
-      "front": {
-        "name": "Schwarzer Haufen",
-        "type": "Ereignis",
-        "cost": 3,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/673.jpg"
-      }
-    }
-  },
-  "674": {
-    "id": "674",
-    "name": "Und haben wir im Ranzen",
-    "Element": "ignis",
-    "type": "Ereignis",
-    "cost": 1,
-    "face": {
-      "front": {
-        "name": "Und haben wir im Ranzen",
-        "type": "Ereignis",
-        "cost": 1,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/674.jpg"
-      }
-    }
-  },
-  "675": {
-    "id": "675",
-    "name": "Lärmann von Pavia",
-    "Element": "ignis",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Lärmann von Pavia",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/675.jpg"
-      }
-    }
-  },
-  "676": {
-    "id": "676",
-    "name": "Rohe Gewalt",
-    "Element": "ignis",
-    "type": "Ereignis",
-    "cost": 5,
-    "face": {
-      "front": {
-        "name": "Rohe Gewalt",
-        "type": "Ereignis",
-        "cost": 5,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/676.jpg"
-      }
-    }
-  },
-  "677": {
-    "id": "677",
-    "name": "Sturmangriff!",
-    "Element": "ignis",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Sturmangriff!",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/677.jpg"
-      }
-    }
-  },
-  "678": {
-    "id": "678",
-    "name": "Wir zogen in das Feld",
-    "Element": "ignis",
-    "type": "Ereignis",
-    "cost": 4,
-    "face": {
-      "front": {
-        "name": "Wir zogen in das Feld",
-        "type": "Ereignis",
-        "cost": 4,
-        "image": "https://itschotsch.github.io/anor/export/dev/jpg/678.jpg"
       }
     }
   }
