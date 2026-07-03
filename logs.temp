@@ -1,0 +1,453 @@
+tcgmaker2  | INFO:__main__:Log level set to: DEBUG
+tcgmaker2  | INFO:input.input_manager:Adding NotionInputAdapters...
+tcgmaker2  | INFO:input.input_manager:Adding NotionInputAdapter with database_id: 70ddd0aaafb74f56b205e643b0901290...
+tcgmaker2  | INFO:input.input_manager:Adding CSVInputAdapter with file_name: data.csv...
+tcgmaker2  | INFO:input.input_manager:Adding CSVInputAdapter with file_name: data_raw_notion_db_70ddd0aaafb74f56b205e643b0901290.csv...
+tcgmaker2  | INFO:input.input_manager:Adding NotionCSVInputAdapter with file_name: data.csv...
+tcgmaker2  | INFO:input.input_manager:Adding NotionCSVInputAdapter with file_name: data_raw_notion_db_70ddd0aaafb74f56b205e643b0901290.csv...
+tcgmaker2  | DEBUG:git.cmd:Popen(['git', 'version'], cwd=/app, stdin=None, shell=False, universal_newlines=False)
+tcgmaker2  | DEBUG:git.cmd:Popen(['git', 'version'], cwd=/app, stdin=None, shell=False, universal_newlines=False)
+tcgmaker2  | DEBUG:web.web_server:Created FastAPI app instance.
+tcgmaker2  | DEBUG:web.web_server:Mounted static files: /static
+tcgmaker2  | DEBUG:web.web_server:Mounted repositories: /app/repositories
+tcgmaker2  | DEBUG:web.web_server:Templates directory set: /app/app/web/templates
+tcgmaker2  | INFO:__main__:Using host from .env: 0.0.0.0
+tcgmaker2  | INFO:__main__:Using port from .env: 8000
+tcgmaker2  | INFO:__main__:Using host from command line: 0.0.0.0
+tcgmaker2  | INFO:__main__:Using port from command line: 8000
+tcgmaker2  | INFO:     Will watch for changes in these directories: ['/app/app']
+tcgmaker2  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+tcgmaker2  | INFO:     Started reloader process [1] using WatchFiles
+tcgmaker2  | INFO:__mp_main__:Log level set to: DEBUG
+tcgmaker2  | INFO:input.input_manager:Adding NotionInputAdapters...
+tcgmaker2  | INFO:input.input_manager:Adding NotionInputAdapter with database_id: 70ddd0aaafb74f56b205e643b0901290...
+tcgmaker2  | INFO:input.input_manager:Adding CSVInputAdapter with file_name: data.csv...
+tcgmaker2  | INFO:input.input_manager:Adding CSVInputAdapter with file_name: data_raw_notion_db_70ddd0aaafb74f56b205e643b0901290.csv...
+tcgmaker2  | INFO:input.input_manager:Adding NotionCSVInputAdapter with file_name: data.csv...
+tcgmaker2  | INFO:input.input_manager:Adding NotionCSVInputAdapter with file_name: data_raw_notion_db_70ddd0aaafb74f56b205e643b0901290.csv...
+tcgmaker2  | DEBUG:git.cmd:Popen(['git', 'version'], cwd=/app, stdin=None, shell=False, universal_newlines=False)
+tcgmaker2  | DEBUG:git.cmd:Popen(['git', 'version'], cwd=/app, stdin=None, shell=False, universal_newlines=False)
+tcgmaker2  | DEBUG:web.web_server:Created FastAPI app instance.
+tcgmaker2  | DEBUG:web.web_server:Mounted static files: /static
+tcgmaker2  | DEBUG:web.web_server:Mounted repositories: /app/repositories
+tcgmaker2  | DEBUG:web.web_server:Templates directory set: /app/app/web/templates
+tcgmaker2  | INFO:     Started server process [33]
+tcgmaker2  | INFO:     Waiting for application startup.
+tcgmaker2  | INFO:     Application startup complete.
+tcgmaker2  | INFO:     192.168.97.97:49388 - "GET /card_renderer HTTP/1.1" 200 OK
+tcgmaker2  | INFO:input.notion_input_adapter:Reading from Notion database with ID: 70ddd0aaafb74f56b205e643b0901290
+tcgmaker2  | INFO:input.notion_input_adapter:Successfully created Notion2PandasClient
+tcgmaker2  | DEBUG:input.notion_input_adapter:Fetching data from Notion...
+tcgmaker2  | DEBUG:httpcore.connection:connect_tcp.started host='api.notion.com' port=443 local_address=None timeout=60.0 socket_options=None
+tcgmaker2  | DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f5cdb760440>
+tcgmaker2  | DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x7f5cdb859b50> server_hostname='api.notion.com' timeout=60.0
+tcgmaker2  | DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f5cdb8c5f90>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:15 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055c7083303af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"7b6c6-ap061VpSCbZf9c6hVRe0ZmJJv40"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'6f0c8aa3-53b2-4b9b-9663-096cf6b37fe3'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'set-cookie', b'__cf_bm=LBOPMMMBrtZDuqVFt6cc5hYjUG41GZPS2hLGnf5JUsU-1782687914.0817664-1.0.1.1-yDDkpH1T.NTRceCOwg3qbDCGErRp7qV94Yzwbrc3eUFW9jntN79kGSfAtNAWej7PVQXutIPwqeaSwaSEavx.l5kbbxIWyTHqcUoRU6AkQ93aDo5JWmdSHblGWZ.sMOuz; HttpOnly; SameSite=None; Secure; Path=/; Domain=notion.com; Expires=Sun, 28 Jun 2026 23:35:15 GMT'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: POST https://api.notion.com/v1/databases/70ddd0aaafb74f56b205e643b0901290/query "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:15 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055cf0e6b03af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"850e2-58x+A7IfUMagY3fJcgIJzmfbck8"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'faf3574c-148d-422c-aafd-44d9c96c2674'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: POST https://api.notion.com/v1/databases/70ddd0aaafb74f56b205e643b0901290/query "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:16 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055d26c1403af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"7ee87-D6XPm0l8bTW3ee1qRkAZ/XM08Yc"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'd35efe29-c121-4797-b3eb-2c32b9e74dda'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: POST https://api.notion.com/v1/databases/70ddd0aaafb74f56b205e643b0901290/query "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:17 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055d68b2803af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"7030d-5G8HXscV5aeJi0Dmh++EcXwhOzw"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'93cbfcfb-f4e0-487a-a12f-3d4f22dc691e'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: POST https://api.notion.com/v1/databases/70ddd0aaafb74f56b205e643b0901290/query "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:18 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055dacb5103af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"6e420-QZkD0zyQ5yW4LtC0jhyavj3N5zM"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'4be07958-b6c1-4372-8130-2c193b822a8b'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: POST https://api.notion.com/v1/databases/70ddd0aaafb74f56b205e643b0901290/query "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:19 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055e53ef003af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"a7eac-cp5UyzFVUayh+XN5z7LQjEIeYKE"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'b5566bb3-8336-40d2-b0ef-dcbef025bedb'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: POST https://api.notion.com/v1/databases/70ddd0aaafb74f56b205e643b0901290/query "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:19 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055e99e7603af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"eb62-7x3MvMdFzSuCvCFk9Ib8qHspNow"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'33b04bba-a36c-4c2d-8bc0-dada6f138cba'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: POST https://api.notion.com/v1/databases/70ddd0aaafb74f56b205e643b0901290/query "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:20 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055ebaaf503af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"604-JPEaKIBZKVh5+4sjzm8tkfck2s4"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'cafdec0d-935c-4e57-84ef-8c0b8db82a86'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/ca68b053-cd74-404a-8fa8-5893e505b753 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:20 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055ed8e9d03af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"80b-Pxatl+3pVvF0otU5HS7DVb0KGL4"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'59c6a281-35d3-4fd0-9f59-7ad15ba8180f'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/cdfda7ca-52aa-435b-bb22-610007798d2f "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:21 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055f20e4803af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"604-abDqSAuOkq1hxB1505Af+XPByMA"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'10261b0f-785c-46ee-b849-89c12d4d0038'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/a6762ab5-136d-4598-aafb-8d77da6be70f "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:21 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055f419c403af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"610-c9fHXa60GzyqCZ6UoAn65pB3cqQ"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'd5590914-a9db-464f-8b16-3872891e20bf'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/88e179fa-1fd7-4049-9a32-ee3ed4377596 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:21 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055f64d2603af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"61e-7KGd7kNGvMp+13AaQSPhR4CWmMc"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'826da683-68d4-4520-8a4a-9837c29b205c'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/01fa7835-43da-4ed2-964e-db521e465bd0 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:22 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055f8794603af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"602-avjK6xUGethZEc48iFQsAFGoJcc"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'845a4646-732c-44b2-9673-88635bbe5e91'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/8c3b1bb2-cc36-4f6b-a274-d390ac8d3800 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:22 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055fa5c7503af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"607-cXFOvFnNlw0Hec6Qgd+wv6z2QcQ"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'77e01542-e78d-4b01-bc12-39f7bc1a9587'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/ba80d989-41c8-405d-875c-b3e6fdb6bf34 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:22 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055fbcfa803af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"604-tRzTsCcnNh0fWShj6zT2EBSsuNY"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'44b01b21-2b08-4068-a755-6fd2d2ad2a21'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/5996f389-9d77-40fc-809f-e30a652d20c6 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:22 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055fd29ba03af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"70a-yovk6Mgws6dfbZOy5SQeay/7Vcs"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'e5a7511e-2df6-4d68-a976-fd1f6606e563'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/d8ea55c1-066e-4abb-b15b-1b371bd0f320 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:23 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13055febbda03af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"73a-BqJwH9hTPuY7Tp9klulTPAkWO8U"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'4673a287-d5db-4e9a-bfc4-5c0786c8d585'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/112f4e92-a646-4af1-a3fe-9c8f536355b0 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:23 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13056002e9a03af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"816-v7//Z+hnVaLgtvvQHd+602yzI9E"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'370127c4-83e3-462d-b33e-4b0f2fd3ff58'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/86700da5-b47d-4073-ae8e-37cc896f9162 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:23 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a1305601e9b803af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"731-CaRcs6ZgdujckAZTOcwoy0whAT0"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'16dd1465-3870-411b-8ca8-c0b063e3d319'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/5014765d-ddb3-438f-86c3-1b63b4523367 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:23 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13056038c7703af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"582-kmT2yvmKdHRdpELKE5BuCnuj/I8"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'6626f500-7dec-40fc-9b02-3c61fd6a9c4b'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/33795bba-56ba-80e6-8d49-cad08cb465c0 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:24 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a1305604ff2203af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"716-REfGGRTxfuuJPX4Z2sm6OqeMu9M"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'47728171-6010-4278-bbfd-f74e866d8707'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/3a53f2f6-a1ef-426b-8a25-520ab3d354b1 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:24 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a1305606796f03af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"715-DCeSo5Yy6NwIcFltiFlM2QZDvgw"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'17aaa0b3-04bd-4ca0-b9b4-2d8789dc8efa'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/048bd954-95bd-4b0d-af5c-7b992a39f61a "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:24 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13056089ce703af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"5b3-RGxMu1uAnLH0uDm6s7rjwONh0C8"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'b181daae-615a-458e-ad5c-52133f64c5a2'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/95ad0a0b-63a2-4c66-9402-80fe886abd05 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:25 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a130560a1fb603af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"60b-OOJBmGwsYQoBHtIGnaFkNmg5XzA"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'b7eebd5b-8725-42a9-8344-2f748deb5c59'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/16a95bba-56ba-8066-bc1b-c23c764d9b4b "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:25 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a130560bbb2e03af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"71c-IdACrT/dfI1677fKuixkkyr+JKE"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'b410439c-c901-4aff-ab32-4710b044e6e8'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/18c618e1-fbc4-4737-ad11-8d41cdbfa787 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:25 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a130560d3e0c03af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"831-j3yeTpWjoDdOgauOm2Q8AHHeEtE"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'960f290a-9c88-4e36-930a-790fb68011c6'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/416ecc43-3e6d-4261-a464-0d1384950176 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:25 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a130560ea8d703af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"616-FrXoHtt6vf9uTw0xR0O5k9jUDCY"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'0b197671-a43b-4033-87af-b8b3fad1e196'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/2fd48ac2-c29b-4710-8245-679f33342673 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:26 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13056110d0c03af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"70e-UNBiGdbZS90q++TJbWkNRszuH7o"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'a426b2b3-4500-40a1-9ee3-80f2853bd523'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/857f7aff-cced-4454-853c-047bb3d48bea "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:26 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a1305612a83e03af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"6f1-EsH86Q5sqNARZQ9Pb605lVkh23U"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'1a35b589-dbe7-4592-b4da-b5960f426cf0'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/16a95bba-56ba-80a0-a97a-f872ec32e686 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:26 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13056141b3a03af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"585-5Fd+tcyzLumzeq6Que6wJaq4VQ4"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'c9e8fbe8-3c87-4094-891d-c148abd16331'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/37495bba-56ba-80fa-92b3-d1f2c1afa316 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:26 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a1305615adfb03af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"585-fXL0RDnvMwmVtKe6ivfnB8sJzf8"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'fe6bd9d3-253f-4665-b082-3c2c9cd156fa'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/37495bba-56ba-8087-88df-e6ba1bdd022e "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:27 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a1305617695d03af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"585-ItGmKIEq/6fJ8N9FAerea48e1jg"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'e52bb052-c726-4144-bb7c-e834ea5b5b02'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/37495bba-56ba-8027-800f-c5342d2520e7 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_headers.complete
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:send_request_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 28 Jun 2026 23:05:27 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'a13056190c4503af-ZRH'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'ETag', b'W/"5b9-F7wNYJl/k7Gtzu4GO3fVtER2F/c"'), (b'Server', b'cloudflare'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Vary', b'Accept-Encoding'), (b'content-security-policy', b"default-src 'none'"), (b'referrer-policy', b'strict-origin-when-cross-origin'), (b'x-content-type-options', b'nosniff'), (b'x-dns-prefetch-control', b'off'), (b'x-download-options', b'noopen'), (b'x-frame-options', b'SAMEORIGIN'), (b'x-notion-request-id', b'4c141a38-855f-4060-bd85-fec2e3f6fbe9'), (b'x-permitted-cross-domain-policies', b'none'), (b'x-xss-protection', b'0'), (b'alt-svc', b'h3=":443"; ma=86400')])
+tcgmaker2  | INFO:httpx:HTTP Request: GET https://api.notion.com/v1/pages/1e195bba-56ba-806f-a7ac-ed1705844813 "HTTP/1.1 200 OK"
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'GET']>
+tcgmaker2  | DEBUG:httpcore.http11:receive_response_body.complete
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.started
+tcgmaker2  | DEBUG:httpcore.http11:response_closed.complete
+tcgmaker2  | INFO:input.notion_input_adapter:Successfully loaded 613 rows.
+tcgmaker2  | DEBUG:input.notion_input_adapter:Relation cache size: 26 unique pages resolved.
+tcgmaker2  | INFO:input.notion_input_adapter:Raw Notion data saved to /app/process/2026-06-28_23-05-14/csv/data_raw_notion_db_70ddd0aaafb74f56b205e643b0901290.csv
+tcgmaker2  | Reading data from <input.notion_input_adapter.NotionInputAdapter object at 0x7f5cdcf91550> / Notion Import...
+tcgmaker2  | Sanitising dataframe...
+tcgmaker2  | Kind before: <StringArray>
+tcgmaker2  | ['[]', '['Charakter']', '['Ereignis']', '['Manifestation']']
+tcgmaker2  | Length: 4, dtype: str
+tcgmaker2  | Kind after: <StringArray>
+tcgmaker2  | [nan, 'Charakter', 'Ereignis', 'Manifestation']
+tcgmaker2  | Length: 4, dtype: str
+tcgmaker2  | Type before: <StringArray>
+tcgmaker2  | [                '[]',        '['Gefolge']',      '['Gelehrter']',
+tcgmaker2  |         '['Krieger']',       '['Anführer']',         '['Astral']',
+tcgmaker2  |          '['Magier']',       '['Priester']',         '['Bestie']',
+tcgmaker2  |            '['Adel']',     '['Abenteurer']', '['Elementarwesen']',
+tcgmaker2  |           '['Geist']',         '['Soldat']',        '['Old One']',
+tcgmaker2  |         '['Monster']',        '['Kultist']',        '['Schurke']']
+tcgmaker2  | Length: 18, dtype: str
+tcgmaker2  | Type after: <StringArray>
+tcgmaker2  | [             nan,        'Gefolge',      'Gelehrter',        'Krieger',
+tcgmaker2  |        'Anführer',         'Astral',         'Magier',       'Priester',
+tcgmaker2  |          'Bestie',           'Adel',     'Abenteurer', 'Elementarwesen',
+tcgmaker2  |           'Geist',         'Soldat',        'Old One',        'Monster',
+tcgmaker2  |         'Kultist',        'Schurke']
+tcgmaker2  | Length: 18, dtype: str
+tcgmaker2  | Elemental Element before: <StringArray>
+tcgmaker2  | [                                           '[]',
+tcgmaker2  |                                      '['Ignis']',
+tcgmaker2  |                                      '['Terra']',
+tcgmaker2  |                                       '['Aqua']',
+tcgmaker2  |                                     '['Magica']',
+tcgmaker2  |                                      '['Aeris']',
+tcgmaker2  |                                  '['Ungeprägt']',
+tcgmaker2  |  '['Terra', 'Aqua', 'Aeris', 'Magica', 'Ignis']',
+tcgmaker2  |                              '['Aqua', 'Aeris']']
+tcgmaker2  | Length: 9, dtype: str
+tcgmaker2  | Elemental Element after: <StringArray>
+tcgmaker2  | [                               <NA>,                             'ignis',
+tcgmaker2  |                              'terra',                              'aqua',
+tcgmaker2  |                             'magica',                             'aeris',
+tcgmaker2  |                          'ungeprägt', 'terra, aqua, aeris, magica, ignis',
+tcgmaker2  |                        'aqua, aeris']
+tcgmaker2  | Length: 9, dtype: string
+tcgmaker2  | Sanitised dataframe.
+tcgmaker2  | INFO:     192.168.97.97:49388 - "POST /card_renderer HTTP/1.1" 200 OK
