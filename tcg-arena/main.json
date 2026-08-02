@@ -1,6 +1,6 @@
 {
-  "name": "Anor – Beta",
-  "menuBackgroundImage": "https://itschotsch.github.io/tcg-maker/tcg-arena/assets/banner.jpg",
+  "name": "Anor",
+  "menuBackgroundImage": "https://itschotsch.github.io/anor/tcg-arena/assets/banner.jpg",
   "deckBuilding": {
     "mainFilters": [
       "type",
@@ -51,12 +51,12 @@
               {
                   "id": "target",
                   "name": "Ziel",
-                  "image": "https://itschotsch.github.io/tcg-maker/tcg-arena/assets/token-target.png"
+                  "image": "https://itschotsch.github.io/anor/tcg-arena/assets/token-target.png"
               },
               {
                   "id": "bannkreis",
                   "name": "Bannkreis",
-                  "image": "https://itschotsch.github.io/tcg-maker/tcg-arena/assets/token-bannkreis.png"
+                  "image": "https://itschotsch.github.io/anor/tcg-arena/assets/token-bannkreis.png"
               }
       ],
       "sections": {
@@ -172,12 +172,12 @@
               {
                   "id": "target",
                   "name": "Ziel",
-                  "image": "https://itschotsch.github.io/tcg-maker/tcg-arena/assets/token-target.png"
+                  "image": "https://itschotsch.github.io/anor/tcg-arena/assets/token-target.png"
               },
               {
                   "id": "bannkreis",
                   "name": "Bannkreis",
-                  "image": "https://itschotsch.github.io/tcg-maker/tcg-arena/assets/token-bannkreis.png"
+                  "image": "https://itschotsch.github.io/anor/tcg-arena/assets/token-bannkreis.png"
               }
       ],
       "sections": {
@@ -283,19 +283,19 @@
   },
   "defaultRessources": {
     "backgrounds": [
-      "https://itschotsch.github.io/tcg-maker/tcg-arena/assets/playmat-1.jpg",
-      "https://itschotsch.github.io/tcg-maker/tcg-arena/assets/playmat-2.jpg",
-      "https://itschotsch.github.io/tcg-maker/tcg-arena/assets/playmat-3.jpg",
-      "https://itschotsch.github.io/tcg-maker/tcg-arena/assets/playmat-4.jpg",
-      "https://itschotsch.github.io/tcg-maker/tcg-arena/assets/playmat-5.jpg",
-      "https://itschotsch.github.io/tcg-maker/tcg-arena/assets/playmat-6.jpg"
+      "https://itschotsch.github.io/anor/tcg-arena/assets/playmat-1.jpg",
+      "https://itschotsch.github.io/anor/tcg-arena/assets/playmat-2.jpg",
+      "https://itschotsch.github.io/anor/tcg-arena/assets/playmat-3.jpg",
+      "https://itschotsch.github.io/anor/tcg-arena/assets/playmat-4.jpg",
+      "https://itschotsch.github.io/anor/tcg-arena/assets/playmat-5.jpg",
+      "https://itschotsch.github.io/anor/tcg-arena/assets/playmat-6.jpg"
     ],
-    "decksUrl": "https://itschotsch.github.io/tcg-maker/tcg-arena/starter-decks.json"
+    "decksUrl": "https://itschotsch.github.io/anor/tcg-arena/starter-decks.json"
   },
   "customHelp": "",
   "cardRotation": "90",
   "cards": {
-    "dataUrl": "https://itschotsch.github.io/tcg-maker/tcg-arena/card-list-public.json",
-    "cardBack": "https://itschotsch.github.io/tcg-maker/tcg-arena/assets/cardback.jpg"
+    "dataUrl": "https://itschotsch.github.io/anor/tcg-arena/card-list-public.json",
+    "cardBack": "https://itschotsch.github.io/anor/tcg-arena/assets/cardback.jpg"
   }
 }
