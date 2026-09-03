@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width={{ card.width.bleed.px }}, height={{ card.height.bleed.px }}, initial-scale=1.0" />
+    <title>{{ entity.title.primary }}</title>
+
+    <style type="text/css">
+        {{ meta.style }}
+    </style>
+  </head>
+
+  <body>
+    <div class="card layout-{{ entity.layout }}">
+      <div class="spacer"></div>
+      <div class="safe-area full">
+        {% for element in entity.devotion.elements %}
+          <div class="devotion">
+            <div class="devotion-element {{ element }} hero"></div>
+          </div>
+        {% endfor %}
+        <div class="titles hero">
+          <div class="title hero">{{ entity.title.primary }}{% if entity.title.secondary %},{% endif %}</div>
+          {% if entity.title.secondary %}<div class="subtitle hero">{{ entity.title.secondary }}</div>{% endif %}
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
