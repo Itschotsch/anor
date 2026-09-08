@@ -1,0 +1,17 @@
+{
+  "517": {
+    "id": "517",
+    "name": "Verlegener Blick",
+    "Element": "aqua",
+    "type": "Ereignis",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Verlegener Blick",
+        "type": "Ereignis",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/alt-art/jpg/517.jpg"
+      }
+    }
+  }
+}
