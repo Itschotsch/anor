@@ -1,0 +1,47 @@
+{
+  "217": {
+    "id": "217",
+    "name": "Moment zum Durchatmen",
+    "Element": "aeris",
+    "type": "Ereignis",
+    "cost": 3,
+    "face": {
+      "front": {
+        "name": "Moment zum Durchatmen",
+        "type": "Ereignis",
+        "cost": 3,
+        "image": "https://itschotsch.github.io/anor/export/alt-art/jpg/217.jpg"
+      }
+    }
+  },
+  "365": {
+    "id": "365",
+    "name": "Ermutigende Ansprache",
+    "Element": "terra",
+    "type": "Ereignis",
+    "cost": 5,
+    "face": {
+      "front": {
+        "name": "Ermutigende Ansprache",
+        "type": "Ereignis",
+        "cost": 5,
+        "image": "https://itschotsch.github.io/anor/export/alt-art/jpg/365.jpg"
+      }
+    }
+  },
+  "517": {
+    "id": "517",
+    "name": "Verlegener Blick",
+    "Element": "aqua",
+    "type": "Ereignis",
+    "cost": 2,
+    "face": {
+      "front": {
+        "name": "Verlegener Blick",
+        "type": "Ereignis",
+        "cost": 2,
+        "image": "https://itschotsch.github.io/anor/export/alt-art/jpg/517.jpg"
+      }
+    }
+  }
+}
