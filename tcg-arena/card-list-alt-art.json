@@ -14,6 +14,21 @@
       }
     }
   },
+  "227": {
+    "id": "227",
+    "name": "Schubsen",
+    "Element": "aqua",
+    "type": "Ereignis",
+    "cost": 4,
+    "face": {
+      "front": {
+        "name": "Schubsen",
+        "type": "Ereignis",
+        "cost": 4,
+        "image": "https://itschotsch.github.io/anor/export/alt-art/jpg/227.jpg"
+      }
+    }
+  },
   "365": {
     "id": "365",
     "name": "Ermutigende Ansprache",
