@@ -1,0 +1,9 @@
+# macOS and Windows folder metadata
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# Runtime logs of the card renderer
+*.temp
+*.log
